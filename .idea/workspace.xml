@@ -2,570 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ec2edc-29ca-4e74-b28f-1edfe501a5d3" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\jnds-html.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\alerts.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095-rtl.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\4095.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\animate.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\400-500.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\400-500.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\accordions.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\accordions.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\alerts.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\animations.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\animations.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\animations.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\body.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\body.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\breadcrumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\charts.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\charts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\checkbox-radiobox.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\checkbox-radiobox.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\colorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\colorpicker.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\colors.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\colors.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\comment.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\comment.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\dashboard.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\databoxes.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\databoxes.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\datepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\daterangepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\daterangepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\dropdowns.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\editors.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\editors.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\fonts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\fonts.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\forms-inputs.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\forms-inputs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\fullcalendar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\helpers.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\helpers.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\invoice.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\invoice.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\labels-badges.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\labels-badges.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\loading.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\loading.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\loading.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\loading.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\lockscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\lockscreen.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\login.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\login.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\mail.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\mail.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\main-container.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\main-container.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\modals.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\nestable-lists.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\nestable-lists.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\notifications.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\notifications.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\orders.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\orders.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\page-content.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\page-content.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\page-content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\page-header-body.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\page-header-body.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\popovers.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\pricing.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\pricing.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\profile.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\profile.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\progressbars.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\progressbars.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\register.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\register.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\search-help-bar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\search-help-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\select2.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\select2.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\sidebar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\sliders.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\sliders.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\spaces.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\spaces.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\spaces.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\spinners.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\spinners.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\switches.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\switches.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tables.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tabs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tagsinput.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tagsinput.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tasks.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tasks.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tickets.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tickets.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\timeline.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\timepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\timepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tooltips.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\tooltips.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\treeview.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\typography.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\typography.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\validator.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\validator.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\variables.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\variables.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\variables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\wells.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\widget.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\widget.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\wizards.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-less\wizards.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-rtl.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\beyond.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\image.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\resize.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\size.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\mixins\vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\alerts-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\badges-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\bootstrap-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\bootstrap-rtl.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\bootstrap-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\bootstrap-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\button-groups-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\carousel-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\close-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\dropdowns-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\forms-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\grid-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\input-groups-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\list-group-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\media-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\merged-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins\gradients-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins\grid-framework-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins\grid-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\mixins\pagination-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\modals-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\navbar-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\navs-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\normalize-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\pager-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\pagination-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\panels-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\popovers-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\progress-bars-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\responsive-embed-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\tables-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\type-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\utilities-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl-less\variables-rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\demo.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\demo.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\demo.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\other-less\LessHat.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\other-less\lesshat.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\other-less\lesshat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\Blue.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\Blue.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\azure.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\azure.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\azure.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\azure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\black.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\black.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\black.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\black.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\blue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkblue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkblue.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkblue.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkblue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkred.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkred.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkred.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\darkred.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\deepblue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\deepblue.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\deepblue.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\deepblue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\gray.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\gray.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\gray.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\gray.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\green.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\green.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\orange.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\orange.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\orange.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\pink.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\pink.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\pink.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\pink.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\purple.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\purple.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\purple.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\skins-mixins.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\skins-mixins.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\skins-mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\skins-mixins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\teal.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\teal.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\teal.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\skins\teal.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\typicons.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\typicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\weather-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\css\weather-icons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\BYekan.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\WeatherIcons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\YekanWeb-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\YekanWeb-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\typicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\typicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\typicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\typicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\weathericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\weathericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\weathericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\fonts\weathericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\angle-down.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\app-45616.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\app.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\attach-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\attach-green.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\attach-red.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\attach-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Javi-Jimenez.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\John-Smith.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Lee-Munroe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Matt-Cheuvront.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Nicolai-Larson.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Osvaldus-Valutis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Sergey-Azovskiy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\Stephanie-Walter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\adam-jansen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\bing.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\avatars\divyia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\jquery.minicolors.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\logo-inverted.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\logo-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\logo-solo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\temp1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\img\tree-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\analytics.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\beyond.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\beyond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\beyond.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\bootbox\bootbox.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\bootbox\bootbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\bootbox\bootbox.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\chartjs\Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\chartjs\Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\chartjs\chartjs-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\easypiechart\easypiechart-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\easypiechart\jquery.easypiechart.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\easypiechart\jquery.easypiechart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\easypiechart\jquery.easypiechart.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\flot-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.axislabels.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.categories.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.categories.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.crosshair.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.crosshair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.fillbetween.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.fillbetween.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.orderBars.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.selection.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.stack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.time.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\flot\jquery.flot.tooltip.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\morris\morris-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\morris\morris.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\morris\raphael-2.0.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\sparkline\jquery.sparkline.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\charts\sparkline\sparkline-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\colorpicker\jquery.minicolors.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\colorpicker\jquery.minicolors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\ZeroClipboard.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.bootstrap.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.tableTools.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.tableTools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\dataTables.tableTools.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\datatables-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datatable\jquery.dataTables.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\bootstrap-timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\bootstrap-timepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\bootstrap-timepicker.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\moment.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\datetime\moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\editors\summernote\summernote.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\editors\summernote\summernote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\editors\wysiwyg\bootstrap-wysiwyg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\editors\wysiwyg\jquery.hotkeys.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\editors\wysiwyg\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\spinner\fuelux.spinner.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\treeview\tree-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\treeview\tree-custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\treeview\tree-custom.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\treeview\treeview-init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\wizard\wizard-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\wizard\wizard-custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fuelux\wizard\wizard-custom.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fullcalendar\fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fullcalendar\fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\fullcalendar\fullcalendar.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\jquery-2.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\jquery-ui-1.10.4.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\jquery-ui-1.10.4.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\knob\jquery.knob.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\nestable\jquery.nestable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\select2\select2.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\select2\select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\skins.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\skins.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\skins.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slider\jQRangeSlider\jQAllRangeSliders-withRuler-min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slider\jQRangeSlider\jquery.mousewheel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slider\jquery.nouislider.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slimscroll\jquery.slimscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slimscroll\jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\slimscroll\jquery.slimscroll.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\tagsinput\bootstrap-tagsinput.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\tagsinput\bootstrap-tagsinput.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\tagsinput\bootstrap-tagsinput.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\textarea\jquery.autosize.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\textarea\jquery.autosize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\toastr\toastr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\toastr\toastr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\toastr\toastr.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\validation\bootstrapValidator.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\validation\bootstrapValidator.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\js\validation\bootstrapValidator.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\sound\alert.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\swf\copy_csv_xls.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\assets\swf\copy_csv_xls_pdf.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\blank.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\chartjs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\databoxes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\easypiecharts.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\elements.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\error-404.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\error-500.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\flot.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\font-awesome.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-editors.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-inputs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-layouts.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-pickers.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-validation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\form-wizard.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\glyph-icons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\grid.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\inbox.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\index-rtl-ar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\index-rtl-fa.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\lock.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\login.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\message-compose.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\message-view.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\modals.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\morris.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\nestable-list.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\pricing.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\profile.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\register.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\sparkline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\tables-data.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\tables-simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\treeview.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\typicon.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\typography.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\versions.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\weather-icons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\demo\widgets.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/img/logo.png" afterPath="$PROJECT_DIR$/static/assets/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/beyond.css" afterPath="$PROJECT_DIR$/static/assets/css/beyond.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/beyond.min.css" afterPath="$PROJECT_DIR$/static/assets/css/beyond.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/demo.css" afterPath="$PROJECT_DIR$/static/assets/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/demo.less" afterPath="$PROJECT_DIR$/static/assets/css/demo.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/demo.min.css" afterPath="$PROJECT_DIR$/static/assets/css/demo.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/index.html" afterPath="$PROJECT_DIR$/static/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/login.html" afterPath="$PROJECT_DIR$/static/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/beyond-less/main-container.less" afterPath="$PROJECT_DIR$/static/assets/css/beyond-less/main-container.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/beyond-less/page-header-body.less" afterPath="$PROJECT_DIR$/static/assets/css/beyond-less/page-header-body.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/js/skins.js" afterPath="$PROJECT_DIR$/static/assets/js/skins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\admin\index.html" afterPath="$PROJECT_DIR$/templates/admin/index.tmpl" />
+      <change type="MOVED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\index.html" afterPath="$PROJECT_DIR$/templates/index.tmpl" />
+      <change type="MOVED" beforePath="D:\360cloud\work-go\golib\src\helpsystem\static\login.html" afterPath="$PROJECT_DIR$/templates/login.tmpl" />
     </list>
     <ignored path="helpsystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -591,115 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/login.html">
+      <file leaf-file-name="login.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.25" vertical-offset="873" max-vertical-offset="1965">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="2055">
+              <caret line="76" column="92" selection-start-line="76" selection-start-column="92" selection-end-line="76" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1935">
-              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.28435114" vertical-offset="1381" max-vertical-offset="2025">
+              <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/admin/index.html">
+      <file leaf-file-name="index.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95482546" vertical-offset="90" max-vertical-offset="30465">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/js/skins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skins.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/js/skins.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-header-body.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/page-header-body.less">
+      <file leaf-file-name="index.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/index.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-34.458332" vertical-offset="1063" max-vertical-offset="2520">
-              <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-container.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/main-container.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.875" vertical-offset="0" max-vertical-offset="900">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/variables.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.75" vertical-offset="270" max-vertical-offset="930">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wells.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/wells.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1905">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4621" max-vertical-offset="30465">
+              <caret line="329" column="48" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -723,12 +90,13 @@
         <option value="$PROJECT_DIR$/static/assets/css/beyond-less/page-header-body.less" />
         <option value="$PROJECT_DIR$/static/demo/assets/css/beyond-less/main-container.less" />
         <option value="$PROJECT_DIR$/static/assets/css/beyond.css" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/static/assets/js/skins.js" />
-        <option value="$PROJECT_DIR$/static/admin/index.html" />
-        <option value="$PROJECT_DIR$/static/login.html" />
         <option value="$PROJECT_DIR$/static/assets/css/beyond-less/wells.less" />
         <option value="$PROJECT_DIR$/static/assets/css/beyond-less/main-container.less" />
+        <option value="$PROJECT_DIR$/static/admin/index.html" />
+        <option value="$PROJECT_DIR$/static/login.html" />
+        <option value="$PROJECT_DIR$/templates/login.tmpl" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -885,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -899,99 +267,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beyond-less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1030,6 +324,8 @@
       <recent name="D:\360cloud\work-go\golib\src\helpsystem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\360cloud\work-go\golib\src\helpsystem\html\admin" />
+      <recent name="D:\360cloud\work-go\golib\src\helpsystem\html" />
       <recent name="D:\360cloud\work-go\golib\src\helpsystem" />
       <recent name="D:\360cloud\work-go\golib\src\helpsystem\src" />
     </key>
@@ -1346,12 +642,19 @@
       <workItem from="1426045537869" duration="10788000" />
       <workItem from="1426066794196" duration="628000" />
       <workItem from="1426067444789" duration="8896000" />
-      <workItem from="1426080388707" duration="3810000" />
+      <workItem from="1426080388707" duration="5945000" />
     </task>
+    <task id="LOCAL-00001" summary="1,完成登录">
+      <created>1426084253463</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1426084253463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59818000" />
+    <option name="totallyTimeSpent" value="61953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1366,11 +669,13 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25841185" sideWeight="0.6919127" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25841185" sideWeight="0.6919127" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1381,7 +686,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1400,6 +704,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="1,完成登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,完成登录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1434,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1965">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
@@ -1489,7 +795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1591,13 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11925">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1708,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/js/skins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+        <state vertical-scroll-proportion="0.65839696" vertical-offset="0" max-vertical-offset="1335">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1724,25 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1935">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.25" vertical-offset="873" max-vertical-offset="1965">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/page-header-body.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.458332" vertical-offset="1063" max-vertical-offset="2520">
+        <state vertical-scroll-proportion="1.654" vertical-offset="1063" max-vertical-offset="2520">
           <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
           <folding />
         </state>
@@ -1750,7 +1033,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/wells.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1905">
+        <state vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="1905">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1758,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.75" vertical-offset="270" max-vertical-offset="930">
+        <state vertical-scroll-proportion="-0.18" vertical-offset="270" max-vertical-offset="930">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -1774,39 +1057,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/beyond-less/main-container.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875" vertical-offset="0" max-vertical-offset="900">
+        <state vertical-scroll-proportion="1.53" vertical-offset="0" max-vertical-offset="900">
           <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95482546" vertical-offset="90" max-vertical-offset="30465">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="2055">
+          <caret line="76" column="92" selection-start-line="76" selection-start-column="92" selection-end-line="76" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4621" max-vertical-offset="30465">
+          <caret line="329" column="48" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28435114" vertical-offset="1381" max-vertical-offset="2025">
+          <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

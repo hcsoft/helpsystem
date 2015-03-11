@@ -21,15 +21,20 @@ func main() {
 	db.SetMaxOpenConns(100)
 	m.Map(db)
 	m.Post("/login", login)
-	m.Post("/logout", logout)
+	m.Get("/logout", logout)
+	m.Get("/", func(r render.Render) {
+			r.HTML(200, "index", nil)
+		})
+
 	//静态内容
 	m.Use(martini.Static("static"))
 	//需要权限的内容
-	m.Get("/admin", func(r render.Render) {
-			r.Redirect("/login.html")
+	m.Get("/admin",auth,  func(r render.Render) {
+			r.HTML(200, "admin/index", nil)
 		})
+
 	m.Group("/admin", func(r martini.Router) {
-			r.Get("/:id", test)
+
 		}, auth)
 	m.Run()
 }
@@ -83,7 +88,7 @@ func getOneResult(rows *sql.Rows) map[string]interface{} {
 }
 
 
-func login(session sessions.Session, db *sql.DB, r render.Render,req *http.Request) {
+func login(session sessions.Session, db *sql.DB, r render.Render, req *http.Request) {
 	userid := req.FormValue("userid")
 	fmt.Println(userid)
 	password := req.FormValue("password")
@@ -94,24 +99,25 @@ func login(session sessions.Session, db *sql.DB, r render.Render,req *http.Reque
 		if values["password"] == password {
 			session.Set("userid", values["userid"])
 			session.Set("username", values["username"])
-			r.Redirect("/admin/index.html")
+			r.HTML(200, "admin/index", nil)
 		}else {
-			r.Redirect("/login.html&msg=密码错误")
+			r.HTML(200, "login", "密码错误")
 		}
 	}else {
-		r.Redirect("/login.html&msg=用户名错误")
+		r.HTML(200, "login", "用户名错误")
 	}
 }
 
-func logout(session sessions.Session) string {
+func logout(session sessions.Session, r render.Render) {
 	session.Delete("userid")
-	return "删除成功"
+	r.HTML(200, "login", "登出成功")
 }
 
 func auth(session sessions.Session, c martini.Context, r render.Render) {
+	fmt.Println("auth..........")
 	v := session.Get("userid")
 	if v == nil {
-		r.Redirect("/login.html")
+		r.HTML(200, "login", "尚未登录")
 	}else {
 		c.Next();
 	}

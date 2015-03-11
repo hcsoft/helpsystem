@@ -74,7 +74,7 @@ Purchase: http://wrapbootstrap.com
                         <h4 class="modal-title">系统登录</h4>
                     </div>
                     <div class="modal-body">
-
+                        <div style="color:red;padding:10px;text-align: center;" id="msg">{{.}}</div>
                         <div class="form-group">
                             用户名<span class="input-icon icon-right inverted">
                                                         <input id="userid" name="userid" type="text"
@@ -119,7 +119,13 @@ Purchase: http://wrapbootstrap.com
 <!--Page Related Scripts-->
 <script src="assets/js/bootbox/bootbox.js"></script>
 
-
+<script>
+    $.urlParam = function(name){
+        var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
+        return results[1] || 0;
+    }
+    $("#msg").html(decodeURIComponent($.urlParam("msg")));
+</script>
 </body>
 <!--  /Body -->
 </html>
