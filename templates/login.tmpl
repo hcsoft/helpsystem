@@ -119,13 +119,5 @@ Purchase: http://wrapbootstrap.com
 <!--Page Related Scripts-->
 <script src="assets/js/bootbox/bootbox.js"></script>
 
-<script>
-    $.urlParam = function(name){
-        var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
-        return results[1] || 0;
-    }
-    $("#msg").html(decodeURIComponent($.urlParam("msg")));
-</script>
 </body>
-<!--  /Body -->
 </html>
