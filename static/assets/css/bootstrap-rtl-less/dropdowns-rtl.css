@@ -1,0 +1,25 @@
+.caret {
+  margin-right: 2px;
+  margin-left: 0;
+}
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  float: left;
+  text-align: right;
+}
+.dropdown-menu.pull-left {
+  left: 0;
+  float: right;
+  right: auto;
+}
+.pull-left > .dropdown-menu {
+  left: 0;
+  float: right;
+  right: auto;
+}
+.navbar-nav.pull-left > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu.pull-left {
+  right: auto;
+  left: 0;
+}
