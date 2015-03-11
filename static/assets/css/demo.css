@@ -198,10 +198,10 @@
   display: block;
   width: auto;
   overflow: hidden;
-  max-width: 600px;
+  max-width: 400px;
 }
 .modal-preview .modal .modal-dialog {
-  width: 90%;
+  width: 80%;
 }
 .bordered-well-container .well {
   margin-bottom: 0px;

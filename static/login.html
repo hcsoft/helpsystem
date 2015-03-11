@@ -63,42 +63,42 @@ Purchase: http://wrapbootstrap.com
 </div>
 <!-- /Navbar -->
 <!-- Main Container -->
-<div class="main-container container-fluid">
+<div class="login-panel container-fluid">
     <!-- Page Container -->
     <div class="page-container">
         <!-- Page Body -->
-        <div class="page-body">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 col-xs-12">
-                    <div class="well">
-                        <div class="modal-preview">
-                            <div class="modal modal-primary center-block">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">系统登录</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Modal Body</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-warning" data-dismiss="modal">
-                                                Close
-                                            </button>
-                                            <button type="button" class="btn btn-primary">Save</button>
-                                        </div>
-                                    </div>
-                                    <!-- /.modal-content -->
-                                </div>
-                                <!-- /.modal-dialog -->
-                            </div>
-                            <!-- /.modal -->
+        <div class="modal-dialog">
+            <form role="form" method="post" action="/login">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">系统登录</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            用户名<span class="input-icon icon-right inverted">
+                                                        <input id="userid" name="userid" type="text"
+                                                               class="form-control">
+                                                        <i class="fa fa-user bg-darkorange"></i>
+                                                    </span>
+                        </div>
+                        <div>
+                            密码<span class="input-icon icon-right inverted">
+                                                        <input id="password" name="password" type="password"
+                                                               class="form-control">
+                                                        <i class="fa  fa-lock  bg-palegreen"></i>
+                                                    </span>
                         </div>
 
                     </div>
-
+                    <div class="modal-footer">
+                        <button type="submit"  class="btn btn-primary">登录</button>
+                        <button type="button" class="btn btn-warning">
+                            取消
+                        </button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
         <!-- /Page Body -->
         <!-- /Page Content -->

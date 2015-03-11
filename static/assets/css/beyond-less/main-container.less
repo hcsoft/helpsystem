@@ -19,3 +19,37 @@
         .box-shadow(0 1px 4px @black3);
     }
 }
+
+
+.login-panel {
+    position: absolute;
+    top:0;
+    padding: 45px 0 0 0 ;
+    width:100%;
+    height:100%;
+
+    & > .page-container {
+        position: relative;
+        height:100%;
+        padding-top:10%;
+        &>.modal-dialog{
+            width:400px;
+        }
+        & .modal-body{
+            padding:30px 50px;
+        }
+    }
+
+    &:after {
+        background-color: @white;
+        bottom: 0;
+        content: "";
+        display: block;
+        max-width: inherit;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: -2;
+        .box-shadow(0 1px 4px @black3);
+    }
+}

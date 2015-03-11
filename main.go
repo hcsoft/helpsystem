@@ -6,6 +6,7 @@ import (
 	_ "github.com/mattn/go-adodb"
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
+	"net/http"
 	"fmt"
 )
 
@@ -19,8 +20,8 @@ func main() {
 	checkErr(err)
 	db.SetMaxOpenConns(100)
 	m.Map(db)
-	m.Get("/login/:username/:password", login)
-	m.Get("/logout", logout)
+	m.Post("/login", login)
+	m.Post("/logout", logout)
 	//静态内容
 	m.Use(martini.Static("static"))
 	//需要权限的内容
@@ -82,20 +83,23 @@ func getOneResult(rows *sql.Rows) map[string]interface{} {
 }
 
 
-func login(session sessions.Session, params martini.Params, db *sql.DB) string {
-	rows, err := db.Query("select * from auth_user where userid= ? ", params["username"])
+func login(session sessions.Session, db *sql.DB, r render.Render,req *http.Request) {
+	userid := req.FormValue("userid")
+	fmt.Println(userid)
+	password := req.FormValue("password")
+	rows, err := db.Query("select * from auth_user where userid= ? ", userid)
 	checkErr(err)
 	if rows.Next() {
 		values := getOneResult(rows)
-		if values["password"] == params["password"] {
+		if values["password"] == password {
 			session.Set("userid", values["userid"])
 			session.Set("username", values["username"])
-			return "登录成功";
+			r.Redirect("/admin/index.html")
 		}else {
-			return "密码错误";
+			r.Redirect("/login.html&msg=密码错误")
 		}
 	}else {
-		return "用户名错误";
+		r.Redirect("/login.html&msg=用户名错误")
 	}
 }
 
