@@ -1,0 +1,24 @@
+<li>
+    {{if .child}}
+    <a href="#" class="menu-dropdown">
+        <i class="menu-icon glyphicon  {{.data.icon}}" style="color:{{.data.color}}"></i>
+        <span class="menu-text">
+            {{.data.name}}
+        </span>
+        <i class="menu-expand"></i>
+    </a>
+    <ul class="submenu">
+        {{ range $key, $value := .child }}
+            {{template "menu" $value}}
+        {{ end }}
+    </ul>
+    {{else}}
+    <a href="javascript:clickMenu('{{.data.id}}')">
+        <i class="menu-icon glyphicon {{.data.icon}}" style="color:{{.data.color}}"></i>
+        <span class="menu-text">
+            {{.data.name}}
+        </span>
+    </a>
+    {{end}}
+</li>
+

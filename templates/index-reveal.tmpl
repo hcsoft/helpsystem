@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+BeyondAdmin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
+Version: 1.0.0
+Purchase: http://wrapbootstrap.com
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Head -->
+<head>
+    <meta charset="utf-8" />
+    <title>帮助系统</title>
+
+    <meta name="description" content="Dashboard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+
+    <!--Basic Styles-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/weather-icons.min.css" rel="stylesheet" />
+
+    <!--Fonts-->
+    <!--Beyond styles-->
+    <link id="beyond-link" href="assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/demo.min.css" rel="stylesheet" />
+    <link href="assets/css/typicons.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <link id="skin-link" href="" rel="stylesheet" type="text/css" />
+
+    <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
+    <script src="assets/js/skins.js"></script>
+
+    <link rel="stylesheet" href="assets/revealjs/css/reveal.css">
+    <link rel="stylesheet" href="assets/revealjs/css/theme/sky.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="assets/revealjs/lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/admin/index-reveal.css">
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/revealjs//css/print/pdf.css' : 'assets/revealjs//css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+<body>
+<!-- Loading Container -->
+<div class="loading-container">
+    <div class="loader"></div>
+</div>
+<!--  /Loading Container -->
+
+<!-- /Navbar -->
+<!-- Main Container -->
+<div class="main-container container-fluid"  style="height:100%;">
+    <!-- Page Container -->
+    <div class="page-container"  style="height:100%;">
+        <!-- Page Sidebar -->
+        <div class="page-sidebar sidebar-top" id="sidebar" >
+            <!-- Page Sidebar Header-->
+
+            <!-- /Page Sidebar Header -->
+            <!-- Sidebar Menu -->
+            <ul class="nav sidebar-menu">
+                <!--Dashboard-->
+                <li class="active">
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon glyphicon glyphicon-home"></i>
+                        <span class="menu-text"> 目录 </span>
+                    </a>
+                </li>
+                <!--Databoxes-->
+                {{ range $key, $value := .cats }}
+                    {{template "menu" $value}}
+                {{ end }}
+            </ul>
+            <!-- /Sidebar Menu -->
+        </div>
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content " style="height:100%;position:relative;">
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="#">首页</a>
+                    </li>
+                    <li class="active">帮助</li>
+                </ul>
+            </div>
+            <div class="page-body impressbody">
+                <div class="reveal">
+                    <!-- Any section element inside of this container is displayed as a slide -->
+                    <div class="slides">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="assets/js/jquery-2.0.3.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="assets/js/beyond.js"></script>
+
+
+<script src="assets/revealjs/lib/js/head.min.js"></script>
+<script src="assets/revealjs/js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    function initReveal(){
+        Reveal.initialize({
+            width: 1300,
+            height: 800,
+            margin: 0,
+            controls: true,
+            progress: true,
+            slideNumber: true,
+            slideNumberBegin:1,
+            history: true,
+            center: true,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+            mouseWheel: true,
+            // Optional reveal.js plugins
+            dependencies: [
+                { src: 'assets/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'assets/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'assets/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'assets/revealjs/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'assets/revealjs/plugin/zoom-js/zoom.js', async: true },
+                { src: 'assets/revealjs/plugin/notes/notes.js', async: true }
+            ]
+        });
+        Reveal.slide(0);
+        $(".slide-number").attr('data-content',"页/共"+Reveal.getTotalSlides()+'页');
+        $(".slides").hide();
+
+        $(".slides").fadeIn("slow");
+    }
+    function clickMenu(id){
+        $.ajax({
+            url: "/pages/"+id,
+            contentType:"html/text"
+        }).done(function(data) {
+            $( ".slides" ).html(data);
+            initReveal();
+        });
+    }
+</script>
+</body>
+<!--  /Body -->
+</html>

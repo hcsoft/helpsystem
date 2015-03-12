@@ -1,0 +1,47 @@
+.page-body.impressbody{
+    position:absolute;
+    top:40px;
+    bottom: 0;
+    left:0;
+    right:0;
+    height:auto !important;
+    /*padding: 10px ;*/
+}
+/*.csstransforms .deck-container.deck-scale:not(.deck-menu) > .slide{*/
+    /*padding:0;*/
+/*}*/
+
+/*.csstransforms .deck-container.deck-scale:not(.deck-menu) > .slide > .deck-slide-scaler{*/
+    /*position: absolute;*/
+    /*width: 90%;*/
+    /*height: 90%;*/
+    /*top: 5%;*/
+    /*left: 5%;*/
+/*}*/
+
+/*.deck-prev-link, .deck-next-link {*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*z-index: 3;*/
+    /*bottom: 38px;*/
+    /*width: 24px;*/
+    /*height: 24px;*/
+    /*line-height: 24px;*/
+    /*background: #fff;*/
+    /*text-align: center;*/
+    /*color: #aaa;*/
+    /*text-decoration: none;*/
+    /*border: 1px solid #ddd;*/
+    /*font-weight: bold;*/
+    /*-webkit-border-radius: 20px;*/
+    /*-moz-border-radius: 20px;*/
+    /*border-radius: 20px;*/
+/*}*/
+/*.deck-prev-link {*/
+    /*left: 50%;*/
+    /*margin-left: -178px;*/
+/*}*/
+/*.deck-next-link {*/
+    /*left: 50%;*/
+    /*margin-left: 153px;*/
+/*}*/

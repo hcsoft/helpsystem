@@ -1,0 +1,64 @@
+.reveal section img{
+    border:none;
+}
+.reveal .progress{
+    position: absolute;
+    bottom: 0;
+}
+.reveal .slide-number{
+    position: absolute;
+    right:15px;
+    /*right:inherit;*/
+    color: #56899c;
+    opacity: 1;
+}
+.slide-number:before{
+    content:"第"
+}
+
+.slide-number:after {
+    content: attr(data-content);
+}
+.page-body.impressbody{
+    position:absolute;
+    top:40px;
+    bottom: 0;
+    left:0;
+    right:0;
+    height:auto !important;
+    padding: 10px ;
+}
+.reveal .controls{
+    position:absolute;
+    bottom:0px;
+    width:55px;
+    height:55px;
+    /*margin-left:-55px;*/
+    /*left:50%;*/
+    left:0;
+}
+.reveal .controls div{
+    border: 6px solid transparent;
+}
+.reveal .controls div.navigate-up{
+    border-bottom-width: 11px;
+    left:21px;
+}
+.reveal .controls div.navigate-left{
+    border-right-width: 11px;
+    top:21px;
+}
+.reveal .controls div.navigate-right{
+    border-left-width: 11px;
+    left: 37px;
+    top: 21px;
+}
+.reveal .controls div.navigate-down{
+    border-top-width: 11px;
+    bottom:0px;
+    left: 21px;
+    top: 37px;
+}
+.reveal .controls div.navigate-up,.reveal .controls div.navigate-down{
+    /*display: none;*/
+}
