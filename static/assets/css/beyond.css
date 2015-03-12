@@ -2462,6 +2462,9 @@ a:active {
   width: 224px;
   display: block;
 }
+.page-sidebar.sidebar-top {
+  top: 0px !important;
+}
 .page-sidebar.sidebar-fixed {
   position: fixed;
   top: 45px;

@@ -20,21 +20,22 @@ func main() {
 	checkErr(err)
 	db.SetMaxOpenConns(100)
 	m.Map(db)
-	m.Post("/login", login)
+	m.Any("/login", login)
 	m.Get("/logout", logout)
-	m.Get("/", func(r render.Render) {
-			r.HTML(200, "index", nil)
-		})
+	m.Get("/", index)
+	m.Get("/pages/:id", pages)
 
 	//静态内容
 	m.Use(martini.Static("static"))
 	//需要权限的内容
-	m.Get("/admin",auth,  func(r render.Render) {
-			r.HTML(200, "admin/index", nil)
+	m.Get("/admin", auth, func(r render.Render, session sessions.Session) {
+			r.HTML(200, "admin/index", session.Get("username"))
 		})
 
 	m.Group("/admin", func(r martini.Router) {
-
+			m.Get("/index", func(r render.Render, session sessions.Session) {
+					r.HTML(200, "admin/index", session.Get("username"))
+				})
 		}, auth)
 	m.Run()
 }
@@ -87,9 +88,49 @@ func getOneResult(rows *sql.Rows) map[string]interface{} {
 	return row;
 }
 
+func index( db *sql.DB , r render.Render, req *http.Request) {
+	ret := make(map[string]interface{})
+	rows, err := db.Query("select * from help_pages ")
+	checkErr(err)
+	values := getResultArray(rows)
+	ret["test"] = values
+	catid := req.FormValue("catid")
+	if catid == "" {
+		catid = "0"
+	}
+	ret["cats"] = getChildCats(catid,db)
+
+	r.HTML(200, "index-reveal", ret)
+}
+func pages(db *sql.DB , r render.Render, params martini.Params){
+	id :=params["id"]
+	rows, err := db.Query("select * from help_pages where catid= ? ",id)
+	checkErr(err)
+	values := getResultArray(rows)
+	r.HTML(200, "slide", values)
+}
+
+func getChildCats(catid interface{}, db *sql.DB) map[string]map[string]interface{}{
+	rows, err := db.Query("select * from help_cat where parentid = ? order by ord ",catid)
+	checkErr(err)
+	values := getResultArray(rows)
+	cats := make(map[string]map[string]interface{})
+	for _, v := range values {
+		id := v["id"].(string)
+		cats[id] = make(map[string]interface{})
+		cats[id]["data"] = v;
+		cats[id]["child"] = getChildCats(id,db);
+	}
+	return cats;
+}
+
 
 func login(session sessions.Session, db *sql.DB, r render.Render, req *http.Request) {
 	userid := req.FormValue("userid")
+	if userid == "" {
+		r.HTML(200, "login", "请登录")
+		return
+	}
 	fmt.Println(userid)
 	password := req.FormValue("password")
 	rows, err := db.Query("select * from auth_user where userid= ? ", userid)
@@ -99,7 +140,8 @@ func login(session sessions.Session, db *sql.DB, r render.Render, req *http.Requ
 		if values["password"] == password {
 			session.Set("userid", values["userid"])
 			session.Set("username", values["username"])
-			r.HTML(200, "admin/index", nil)
+			r.Redirect("/admin")
+			//			r.HTML(200, "admin/index", nil)
 		}else {
 			r.HTML(200, "login", "密码错误")
 		}
@@ -117,7 +159,7 @@ func auth(session sessions.Session, c martini.Context, r render.Render) {
 	fmt.Println("auth..........")
 	v := session.Get("userid")
 	if v == nil {
-		r.HTML(200, "login", "尚未登录")
+		r.Redirect("/login")
 	}else {
 		c.Next();
 	}
