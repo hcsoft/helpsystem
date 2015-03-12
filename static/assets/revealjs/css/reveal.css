@@ -93,7 +93,12 @@ body {
   .reveal .slides section .fragment.fade-out.visible {
     opacity: 0;
     visibility: hidden; }
-
+.reveal .slides section .fragment.fade-in {
+    opacity: 0;
+    visibility: hidden; }
+.reveal .slides section .fragment.fade-in.visible {
+    opacity: 1;
+    visibility: visible; }
 .reveal .slides section .fragment.semi-fade-out {
   opacity: 1;
   visibility: visible; }

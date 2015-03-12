@@ -8,6 +8,8 @@ import (
 	"github.com/martini-contrib/render"
 	"net/http"
 	"fmt"
+	"strings"
+	"html/template"
 )
 
 func main() {
@@ -107,6 +109,38 @@ func pages(db *sql.DB , r render.Render, params martini.Params){
 	rows, err := db.Query("select * from help_pages where catid= ? ",id)
 	checkErr(err)
 	values := getResultArray(rows)
+	for _,value := range values{
+		url :=value["url"].(string);
+		fmt.Println(url);
+		fmt.Println(strings.Index(url,","));
+
+		if strings.Index(url,",") >0{
+			value["isarray"] = true
+			var urls  []interface{};
+
+			strs := strings.Split(url,",")
+			for _,str := range strs{
+				fmt.Println(str);
+				cols :=strings.Split(str,"|")
+				fmt.Println(cols[0])
+				fmt.Println(cols[1])
+				colmap := make(map[string]interface{})
+				colmap["url"]=cols[0]
+				if len(cols)>1 && cols[1] != "" {
+					colmap["css"]=template.CSS(cols[1])
+				}else{
+					colmap["css"]=template.CSS("width:100%;height:100%;")
+				}
+				if len(cols)>2  && cols[2] != ""  {
+					colmap["animate"]=(cols[2])
+				}else{
+					colmap["animate"]=""
+				}
+				urls = append(urls,colmap)
+			}
+			value["urls"] = urls;
+		}
+	}
 	r.HTML(200, "slide", values)
 }
 

@@ -151,8 +151,7 @@ Purchase: http://wrapbootstrap.com
         Reveal.slide(0);
         $(".slide-number").attr('data-content',"页/共"+Reveal.getTotalSlides()+'页');
         $(".slides").hide();
-
-        $(".slides").fadeIn("slow");
+        $(".slides").fadeIn(2000);
     }
     function clickMenu(id){
         $.ajax({
