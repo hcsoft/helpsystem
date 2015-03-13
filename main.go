@@ -92,15 +92,17 @@ func getOneResult(rows *sql.Rows) map[string]interface{} {
 
 func index( db *sql.DB , r render.Render, req *http.Request) {
 	ret := make(map[string]interface{})
-	rows, err := db.Query("select * from help_pages ")
-	checkErr(err)
-	values := getResultArray(rows)
-	ret["test"] = values
 	catid := req.FormValue("catid")
-	if catid == "" {
-		catid = "0"
+
+	ids := strings.Split(catid,",")
+	cats := make(  map[string]map[string]interface{})
+	for _,v := range ids{
+		cat := getCats(v,db)
+		for k, v := range cat {
+			cats[k] = v
+		}
 	}
-	ret["cats"] = getChildCats(catid,db)
+	ret["cats"] = cats
 
 	r.HTML(200, "index-reveal", ret)
 }
@@ -151,6 +153,21 @@ func pages(db *sql.DB , r render.Render, params martini.Params){
 		}
 	}
 	r.HTML(200, "slide", values)
+}
+
+func getCats(catid string, db *sql.DB)map[string]map[string]interface{}{
+	if catid == "0"{
+		return getChildCats(catid,db)
+	}else{
+		cats := make(map[string]map[string]interface{})
+		cats[catid] = make(map[string]interface{})
+		rows, err := db.Query("select * from help_cat where id = ? order by ord ",catid)
+		checkErr(err)
+		values := getResultArray(rows)
+		cats[catid]["data"] = values[0];
+		cats[catid]["child"] = getChildCats(catid,db);
+		return cats;
+	}
 }
 
 func getChildCats(catid interface{}, db *sql.DB) map[string]map[string]interface{}{
