@@ -1,15 +1,24 @@
 {{ range $key, $value := . }}
-<section class="">
+<section >
     {{if $value.isarray}}
         {{ range $key1, $data := $value.urls }}
+            {{if eq $data.type "section"}}
+                <section><img src='{{$data.url}}' style="width:100%;height:100%;"></section>
+            {{else}}
             {{if  eq $key1 0}}
-            <div class="{{$data.animate}}" style="display:block;{{$data.css}}"><img src='{{$data.url}}' style="width:100%;height:100%;"></div>
+            <div class="{{$data.animate}}" style="display:block;{{$data.css}}"><img  src='{{$data.url}}' style="width:100%;height:100%;"></div>
             {{else}}
             <div class="fragment {{$data.animate}}" style="display:block;{{$data.css}}"><img src='{{$data.url}}' style="width:100%;height:100%;"></div>
              {{end}}
+            {{end}}
         {{end}}
     {{else}}
         <img src='{{$value.url}}' style="width:100%;height:100%;">
     {{end}}
 </section>
 {{ end }}
+{{if  eq (len .) 0 }}
+<section >
+    没有数据!
+</section>
+{{end}}
