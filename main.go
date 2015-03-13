@@ -25,6 +25,7 @@ func main() {
 	m.Any("/login", login)
 	m.Get("/logout", logout)
 	m.Get("/", index)
+	m.Get("/cats/:catid", cats)
 	m.Get("/pages/:id", pages)
 
 	//静态内容
@@ -93,7 +94,27 @@ func getOneResult(rows *sql.Rows) map[string]interface{} {
 func index( db *sql.DB , r render.Render, req *http.Request) {
 	ret := make(map[string]interface{})
 	catid := req.FormValue("catid")
+	if catid==""{
+		catid = "0"
+	}
+	ids := strings.Split(catid,",")
+	cats := make(  map[string]map[string]interface{})
+	for _,v := range ids{
+		cat := getCats(v,db)
+		for k, v := range cat {
+			cats[k] = v
+		}
+	}
+	ret["cats"] = cats
+	r.HTML(200, "index-reveal", ret)
+}
 
+func cats( db *sql.DB , r render.Render,  params martini.Params) {
+	ret := make(map[string]interface{})
+	catid := params["catid"]
+	if catid==""{
+		catid = "0"
+	}
 	ids := strings.Split(catid,",")
 	cats := make(  map[string]map[string]interface{})
 	for _,v := range ids{
@@ -106,6 +127,7 @@ func index( db *sql.DB , r render.Render, req *http.Request) {
 
 	r.HTML(200, "index-reveal", ret)
 }
+
 func pages(db *sql.DB , r render.Render, params martini.Params){
 	id :=params["id"]
 	rows, err := db.Query("select * from help_pages where catid= ?  order by idx",id)

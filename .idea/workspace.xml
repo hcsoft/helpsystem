@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ec2edc-29ca-4e74-b28f-1edfe501a5d3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index-reveal.tmpl" afterPath="$PROJECT_DIR$/templates/index-reveal.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62285715" vertical-offset="1203" max-vertical-offset="3555">
-              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1203" max-vertical-offset="3885">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625" vertical-offset="2280" max-vertical-offset="3225">
-              <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.40045768" vertical-offset="260" max-vertical-offset="3225">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -149,8 +150,8 @@
         <option value="$PROJECT_DIR$/static/css/admin/index-reveal.css" />
         <option value="$PROJECT_DIR$/templates/slide.tmpl" />
         <option value="$PROJECT_DIR$/templates/menu.tmpl" />
-        <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
       </list>
     </option>
   </component>
@@ -716,7 +717,7 @@
       <workItem from="1426066794196" duration="628000" />
       <workItem from="1426067444789" duration="8896000" />
       <workItem from="1426080388707" duration="7867000" />
-      <workItem from="1426126697287" duration="49423000" />
+      <workItem from="1426126697287" duration="49906000" />
     </task>
     <task id="LOCAL-00001" summary="1,完成登录">
       <created>1426084253463</created>
@@ -772,11 +773,17 @@
       <option name="project" value="LOCAL" />
       <updated>1426238647712</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1,增加了目录过滤">
+      <created>1426240478109</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1426240478109</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113298000" />
+    <option name="totallyTimeSpent" value="113781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -833,7 +840,8 @@
     <MESSAGE value="1,解决总页数错误的问题" />
     <MESSAGE value="1,增加了没有页面的显示" />
     <MESSAGE value="1,处理了导航" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,处理了导航" />
+    <MESSAGE value="1,增加了目录过滤" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,增加了目录过滤" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1152,34 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/admin/index-reveal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.730769" vertical-offset="149" max-vertical-offset="1035">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="2280" max-vertical-offset="3225">
-          <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/revealjs/css/reveal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8047" max-vertical-offset="17280">
-          <caret line="549" column="39" selection-start-line="549" selection-start-column="34" selection-end-line="549" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
@@ -1191,11 +1171,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/admin/index-reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.730769" vertical-offset="149" max-vertical-offset="1035">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/revealjs/css/reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8047" max-vertical-offset="17280">
+          <caret line="549" column="39" selection-start-line="549" selection-start-column="34" selection-end-line="549" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62285715" vertical-offset="1203" max-vertical-offset="3555">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1203" max-vertical-offset="3885">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40045768" vertical-offset="260" max-vertical-offset="3225">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

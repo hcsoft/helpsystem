@@ -15,38 +15,38 @@ Purchase: http://wrapbootstrap.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 
 
     <!--Basic Styles-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
     <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/weather-icons.min.css" rel="stylesheet" />
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/assets/css/weather-icons.min.css" rel="stylesheet" />
 
     <!--Fonts-->
     <!--Beyond styles-->
-    <link id="beyond-link" href="assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/demo.min.css" rel="stylesheet" />
-    <link href="assets/css/typicons.min.css" rel="stylesheet" />
-    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <link id="beyond-link" href="/assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/demo.min.css" rel="stylesheet" />
+    <link href="/assets/css/typicons.min.css" rel="stylesheet" />
+    <link href="/assets/css/animate.min.css" rel="stylesheet" />
     <link id="skin-link" href="" rel="stylesheet" type="text/css" />
 
     <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
-    <script src="assets/js/skins.js"></script>
+    <script src="/assets/js/skins.js"></script>
 
-    <link rel="stylesheet" href="assets/revealjs/css/reveal.css">
-    <link rel="stylesheet" href="assets/revealjs/css/theme/sky.css" id="theme">
+    <link rel="stylesheet" href="/assets/revealjs/css/reveal.css">
+    <link rel="stylesheet" href="/assets/revealjs/css/theme/sky.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="assets/revealjs/lib/css/zenburn.css">
+    <link rel="stylesheet" href="/assets/revealjs/lib/css/zenburn.css">
     <link rel="stylesheet" href="css/admin/index-reveal.css">
     <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/revealjs//css/print/pdf.css' : 'assets/revealjs//css/print/paper.css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? '/assets/revealjs/css/print/pdf.css' : '/assets/revealjs//css/print/paper.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
 </head>
@@ -110,16 +110,16 @@ Purchase: http://wrapbootstrap.com
 </div>
 
 <!--Basic Scripts-->
-<script src="assets/js/jquery-2.0.3.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/assets/js/jquery-2.0.3.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/slimscroll/jquery.slimscroll.min.js"></script>
 
 <!--Beyond Scripts-->
-<script src="assets/js/beyond.js"></script>
+<script src="/assets/js/beyond.js"></script>
 
 
-<script src="assets/revealjs/lib/js/head.min.js"></script>
-<script src="assets/revealjs/js/reveal.js"></script>
+<script src="/assets/revealjs/lib/js/head.min.js"></script>
+<script src="/assets/revealjs/js/reveal.js"></script>
 
 <script>
 
@@ -142,12 +142,12 @@ Purchase: http://wrapbootstrap.com
             mouseWheel: true,
             // Optional reveal.js plugins
             dependencies: [
-                { src: 'assets/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: 'assets/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'assets/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'assets/revealjs/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'assets/revealjs/plugin/zoom-js/zoom.js', async: true },
-                { src: 'assets/revealjs/plugin/notes/notes.js', async: true }
+                { src: '/assets/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: '/assets/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '/assets/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '/assets/revealjs/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: '/assets/revealjs/plugin/zoom-js/zoom.js', async: true },
+                { src: '/assets/revealjs/plugin/notes/notes.js', async: true }
             ]
         });
         $(".slide-number").attr('data-content',"页/共"+$(".slides >section").length+'页');
