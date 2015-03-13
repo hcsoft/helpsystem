@@ -4,7 +4,6 @@
     <list default="true" id="81ec2edc-29ca-4e74-b28f-1edfe501a5d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index-reveal.tmpl" afterPath="$PROJECT_DIR$/templates/index-reveal.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/menu.tmpl" afterPath="$PROJECT_DIR$/templates/menu.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slide.tmpl" afterPath="$PROJECT_DIR$/templates/slide.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="helpsystem.iws" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.38" vertical-offset="2201" max-vertical-offset="3015">
-              <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="2280" max-vertical-offset="3225">
+              <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.tmpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.tmpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="501">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#li#0;n#!!top" expanded="true" />
@@ -88,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide.tmpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slide.tmpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56886226" vertical-offset="0" max-vertical-offset="501">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#section#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -150,9 +149,9 @@
         <option value="$PROJECT_DIR$/static/assets/revealjs/css/reveal.css" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/static/css/admin/index-reveal.css" />
+        <option value="$PROJECT_DIR$/templates/slide.tmpl" />
         <option value="$PROJECT_DIR$/templates/menu.tmpl" />
         <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
-        <option value="$PROJECT_DIR$/templates/slide.tmpl" />
       </list>
     </option>
   </component>
@@ -718,7 +717,7 @@
       <workItem from="1426066794196" duration="628000" />
       <workItem from="1426067444789" duration="8896000" />
       <workItem from="1426080388707" duration="7867000" />
-      <workItem from="1426126697287" duration="45377000" />
+      <workItem from="1426126697287" duration="47594000" />
     </task>
     <task id="LOCAL-00001" summary="1,完成登录">
       <created>1426084253463</created>
@@ -762,11 +761,17 @@
       <option name="project" value="LOCAL" />
       <updated>1426235503091</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1,增加了没有页面的显示">
+      <created>1426236425273</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1426236425273</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109252000" />
+    <option name="totallyTimeSpent" value="111469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -783,7 +788,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25841185" sideWeight="0.6919127" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25706595" sideWeight="0.6919127" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -793,7 +798,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -821,7 +826,8 @@
     <MESSAGE value="1,主页面完成页面&#10;2,完成菜单&#10;3,菜单点击链接" />
     <MESSAGE value="1,解决点击显示一般的问题" />
     <MESSAGE value="1,解决总页数错误的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,解决总页数错误的问题" />
+    <MESSAGE value="1,增加了没有页面的显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,增加了没有页面的显示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1124,10 +1130,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/admin/index-reveal.css">
+    <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.730769" vertical-offset="149" max-vertical-offset="1035">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="3300">
+          <caret line="108" column="80" selection-start-line="108" selection-start-column="80" selection-end-line="108" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1140,29 +1162,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/static/css/admin/index-reveal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="3300">
-          <caret line="108" column="80" selection-start-line="108" selection-start-column="80" selection-end-line="108" selection-end-column="80" />
+        <state vertical-scroll-proportion="-12.730769" vertical-offset="149" max-vertical-offset="1035">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#li#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.38" vertical-offset="2201" max-vertical-offset="3015">
-          <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="2280" max-vertical-offset="3225">
+          <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1171,18 +1182,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
+    <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56886226" vertical-offset="0" max-vertical-offset="501">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="501">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#section#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#li#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

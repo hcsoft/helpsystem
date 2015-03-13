@@ -13,7 +13,7 @@
         {{ end }}
     </ul>
     {{else}}
-    <a href="javascript:clickMenu('{{.data.id}}',this)">
+    <a href="javascript:void(0)" onclick="clickMenu('{{.data.id}}',this)">
         <i class="menu-icon glyphicon {{.data.icon}}" style="color:{{.data.color}}"></i>
         <span class="menu-text">
             {{.data.name}}

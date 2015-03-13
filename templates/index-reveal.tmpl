@@ -72,7 +72,7 @@ Purchase: http://wrapbootstrap.com
             <!-- Sidebar Menu -->
             <ul class="nav sidebar-menu">
                 <!--Dashboard-->
-                <li class="active">
+                <li>
                     <a href="javascript:void(0)">
                         <i class="menu-icon glyphicon glyphicon-home"></i>
                         <span class="menu-text"> 目录 </span>
@@ -94,7 +94,7 @@ Purchase: http://wrapbootstrap.com
                         <i class="fa fa-home"></i>
                         <a href="#">首页</a>
                     </li>
-                    <li class="active">帮助</li>
+
                 </ul>
             </div>
             <div class="page-body impressbody">
@@ -157,12 +157,13 @@ Purchase: http://wrapbootstrap.com
 
     }
     function clickMenu(id,obj){
+        $(".sidebar-menu li.active").removeClass("active");
+        $(obj).parent("li").addClass("active");
         $.ajax({
             url: "/pages/"+id,
             contentType:"html/text"
         }).done(function(data) {
-            console.log(data)
-            $( ".slides" ).html(data);
+            $(".slides").html(data);
             if($( ".slides > section:first-child img").length>0){
                 $( ".slides > section:first-child img").load(function(){
                     initReveal();
@@ -171,6 +172,19 @@ Purchase: http://wrapbootstrap.com
                 initReveal();
             }
         });
+        //显示导航
+        $(".breadcrumb").children(":not(:first-child)").remove();
+        $(".breadcrumb").append(getNav(obj));
+        $(".breadcrumb").children(":last-child").addClass("active");
+    }
+
+    function getNav(obj){
+        var parentobj = $(obj).parent().parent("ul.submenu").prev("a.menu-dropdown");
+        if(parentobj.length >0){
+            return getNav(parentobj) +'<li>'+$.trim($(obj).text())+'</li>';
+        }else{
+            return '<li>'+$.trim($(obj).text())+'</li>';
+        }
     }
     function getNowFormatDate() {
         var date = new Date();
