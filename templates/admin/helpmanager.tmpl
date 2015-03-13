@@ -1,0 +1,70 @@
+<link href="/css/admin/helpmanager.css" rel="stylesheet"/>
+<div class="row helpmanager">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="widget">
+            <div class="widget-header">
+                <span class="widget-caption">目录列表
+                    <a class="btn btn-default btn-xs shiny icon-only blue" onclick="addfirst(this)" title="增加节点"
+                          style="margin-left:100px;"                           href="javascript:void(0);">
+                        <i class="fa fa-plus "></i></a>
+                </span>
+
+                <div class="widget-buttons">
+
+                </div>
+            </div>
+            <div class="widget-body">
+                <div class="dd dd-draghandle darker">
+                    {{template "admin/cat/cat" .}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="widget">
+            <div class="widget-header">
+                <span class="widget-caption">内容</span>
+
+                <div class="widget-buttons">
+
+                </div>
+            </div>
+            <div class="widget-body">
+                <div class="dd dd-draghandle darker">
+                    {{template "admin/cat/content" .}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script id="cattemplate" type="text/html">
+    <li class="dd-item dd2-item changed" data-id="<<id>>" data-parentid="<<parentid>>" data-saved="false"  data-ord="<<ord>>">
+        <div class="dd-handle dd2-handle">
+            <i class="normal-icon glyphicon " style="color:red"></i>
+            <i class="drag-icon fa fa-arrows-alt "></i>
+        </div>
+        <div class="dd2-content">
+            <div class="itemname" style="display:inline-block;"><input type="text" class="form-control input-sm" id="sminput" value="请点击修改名称"></div>
+            <div class="buttons" style="float:right;margin-right:50px;">
+                <a class="btn btn-default btn-xs shiny icon-only success" onclick="add(1,this)" title="在前面插入节点"
+                   href="javascript:void(0);"><i
+                        class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only blue" onclick="add(2,this)" title="在后面插入节点"
+                   href="javascript:void(0);"><i
+                        class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only purple" onclick="add(3,this)" title="插入子节点"
+                   href="javascript:void(0);"><i
+                        class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only danger" onclick="del(this)" title="删除"
+                   href="javascript:void(0);"><i
+                        class="fa fa-times "></i></a>
+                <a class="btn btn-default btn-xs shiny purple" onclick="addContent(this)" title="内容"
+                   href="javascript:void(0);">内容</a>
+            </div>
+            <a href="javascript:void(0);" class="btn btn-palegreen btn-xs dosave" style="position:absolute;right:-50px;" onclick="save(this)">保存</a>
+        </div>
+    </li>
+</script>
+<script src="/js/admin/helpmanager.js"></script>

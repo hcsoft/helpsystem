@@ -1,0 +1,83 @@
+body,body > .main-container,body > .main-container >.page-container,body > .main-container >.page-container>.page-content ,body > .main-container >.page-container>.page-content >.page-body {
+    height:100%;
+    position:relative;
+}
+body > .main-container >.page-container>.page-content >.page-body{
+    position: absolute;
+    top:60px;
+    bottom:0;
+    left:0px;
+    right:0px;
+}
+.row.helpmanager{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-left: 0;
+    padding: 30px 30px 0 15px ;
+}
+
+
+.helpmanager li.dd-item > ol.dd-list{
+    display: none;
+}
+
+.helpmanager li.dd-item{
+    position: relative;
+    overflow: visible;
+}
+.helpmanager li.dd-item > div div.buttons {
+    display:none;
+}
+.helpmanager li.dd-item > div:hover div.buttons {
+    display:block;
+}
+
+
+
+
+.helpmanager li.dd-item.expend > ol.dd-list{
+    display: block;
+}
+.helpmanager li.dd-item > ol.dd-list .menu-expand{
+}
+.helpmanager li.dd-item  >div >.menu-expand:after{
+    content:"\f105";
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    line-height: 10px;
+    height: 10px;
+    width: 10px;
+    right: 12px;
+    top: 15px;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    color: #666;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    font-family: FontAwesome;
+    font-style: normal;
+}
+.helpmanager li.dd-item.expend  >div >.menu-expand:after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+li.dd-item > div.dd2-content >a.dosave{
+    display: none;
+}
+
+li.dd-item.changed > div.dd2-content >a.dosave{
+    display: inline-block;
+}

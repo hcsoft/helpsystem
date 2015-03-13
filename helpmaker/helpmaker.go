@@ -35,6 +35,11 @@ func GetCats(  catid string,db *sql.DB)   map[string]map[string]interface{} {
 }
 
 func Pages(db *sql.DB , r render.Render, params martini.Params){
+	values := getPageData(db,r,params)
+	r.HTML(200, "slide", values)
+}
+
+func getPageData(db *sql.DB , r render.Render, params martini.Params)  []map[string]interface{}{
 	id :=params["id"]
 	rows, err := db.Query("select * from help_pages where catid= ?  order by idx",id)
 	erutil.CheckErr(err)
@@ -80,7 +85,12 @@ func Pages(db *sql.DB , r render.Render, params martini.Params){
 			value["urls"] = urls;
 		}
 	}
-	r.HTML(200, "slide", values)
+	return values;
+}
+
+func EditPages(db *sql.DB , r render.Render, params martini.Params){
+	values := getPageData(db,r,params)
+	r.HTML(200, "admin/cat/content", values)
 }
 
 func GetCat(catid string, db *sql.DB)map[string]map[string]interface{}{

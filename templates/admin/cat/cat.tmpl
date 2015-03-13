@@ -1,0 +1,32 @@
+<ol class="dd-list">
+    {{ range $key, $value := . }}
+    <li class="dd-item dd2-item" data-id="{{$value.data.id}}" data-parentid="{{$value.data.parentid}}"  data-saved="true" data-name="{{$value.data.name}}" data-ord="{{$value.data.ord}}">
+        <div class="dd-handle dd2-handle">
+            <i class="normal-icon glyphicon {{$value.data.icon}}" style="color:{{$value.data.color}}"></i>
+            <i class="drag-icon fa fa-arrows-alt "></i>
+        </div>
+        <div class="dd2-content">
+            <div class="itemname" style="display:inline-block;"><input onchange="namechanged(this)" type="text" class="form-control input-sm" id="sminput" value="{{$value.data.name}}"></div>
+            {{if $value.child}}
+            <i class="menu-expand"></i>
+            {{end}}
+            <div class="buttons" style="float:right;margin-right:50px;">
+                <a class="btn btn-default btn-xs shiny icon-only success" onclick="add(1,this)" title="在前面插入节点" href="javascript:void(0);"><i
+                        class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only blue" onclick="add(2,this)"  title="在后面插入节点" href="javascript:void(0);"><i
+                    class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only purple" onclick="add(3,this)"  title="插入子节点" href="javascript:void(0);"><i
+                        class="fa fa-plus "></i></a>
+                <a class="btn btn-default btn-xs shiny icon-only danger" onclick="del(this)"  title="删除" href="javascript:void(0);"><i
+                        class="fa fa-times "></i></a>
+                <a class="btn btn-default btn-xs shiny purple" onclick="showContent(this)" title="内容"
+                   href="javascript:void(0);">内容</a>
+            </div>
+            <a href="javascript:void(0);" class="btn btn-palegreen btn-xs dosave" style="position:absolute;right:-50px;" onclick="save(this)">保存</a>
+        </div>
+        {{if $value.child}}
+        {{template "admin/cat/cat" $value.child}}
+        {{end}}
+    </li>
+    {{ end }}
+</ol>

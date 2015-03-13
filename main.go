@@ -39,15 +39,43 @@ func main() {
 			m.Get("/index", func(r render.Render, session sessions.Session) {
 					r.HTML(200, "admin/index", session.Get("username"))
 				})
+			m.Get("/EditPages/:id",helpmaker.EditPages)
+			m.Get("/helpmanager", func(r render.Render, session sessions.Session) {
+					r.HTML(200, "admin/helpmanager", helpmaker.GetCats("0", db))
+				})
+			m.Get("/helpcatsave/:id/:parentid/:ord/:name", func(r render.Render, params martini.Params, db *sql.DB) string {
+					id := params["id"]
+					parentid := params["parentid"]
+					name := params["name"]
+					ord := params["ord"]
+					rows , err := db.Query("select * from help_cat where id= ? ", id)
+					erutil.CheckErr(err)
+					if rows.Next(){
+						_ , err := db.Exec("update help_cat set parentid=? ,name=? ,ord=? where id= ? ",parentid,name , ord, id)
+						erutil.CheckErr(err)
+						return "保存成功";
+					}else{
+						_ , err := db.Exec("insert into help_cat (id,name,parentid,ord)values(?,?,?,?) ",id,name, parentid,ord)
+						erutil.CheckErr(err)
+						return "保存成功"
+					}
+					return "保存失败"
+				})
+			m.Get("/helpcatdel/:id", func(r render.Render, params martini.Params, db *sql.DB) string {
+					id := params["id"]
+					_ , err := db.Exec("delete help_cat  where id = ? ",id)
+					erutil.CheckErr(err)
+					return "删除成功"
+				})
 		}, auth.Auth)
 	m.Run()
 }
 
 
-func index( db *sql.DB , r render.Render, req *http.Request) {
+func index(db *sql.DB , r render.Render, req *http.Request) {
 	ret := make(map[string]interface{})
 	catid := req.FormValue("catid")
-	ret["cats"] = helpmaker.GetCats(catid,db)
+	ret["cats"] = helpmaker.GetCats(catid, db)
 	r.HTML(200, "index-reveal", ret)
 }
 
