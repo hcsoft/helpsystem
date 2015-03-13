@@ -1,10 +1,12 @@
 <ol class="dd-list">
     {{ range $key, $value := . }}
-    <li class="dd-item dd2-item">
+    <li class="dd-item dd2-item" style="width:100%;padding:20px;height:300px;display:block;">
         {{if $value.isarray}}
+        <div style="display:table-row">
         {{ range $key1, $data := $value.urls }}
-            <div><img src='{{$data.url}}' style="width:100%;height:100%;"></div>
+            <div style="height: 260px;display: table-cell;"><img src='{{$data.url}}' style="width:100%;height:100%;"></div>
         {{end}}
+        </div>
         {{else}}
         <img src='{{$value.url}}' style="width:100%;height:100%;">
         {{end}}

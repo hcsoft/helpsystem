@@ -134,7 +134,7 @@ function dodelcat(item,func){
         url: "/admin/helpcatdel/"+item.data("id"),
         contentType:"html/text"
     }).done(function(data) {
-        console.log(data)
+        console.log(data);
         if(func)
             func()
     });
@@ -146,7 +146,8 @@ function showContent(obj){
         url: "/admin/EditPages/"+item.data("id"),
         contentType:"html/text"
     }).done(function(data) {
-        console.log(data)
+        $("#pagecontent").html(data);
+        //console.log(data)
     });
     event.stopPropagation();
 }
