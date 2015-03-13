@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ec2edc-29ca-4e74-b28f-1edfe501a5d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index-reveal.tmpl" afterPath="$PROJECT_DIR$/templates/index-reveal.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth/auth.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/db.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error/error.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpmaker/helpmaker.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,11 +33,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1203" max-vertical-offset="3885">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24050634" vertical-offset="456" max-vertical-offset="930">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error/error.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/db.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpmaker.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1800">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/auth.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="870">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -60,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40045768" vertical-offset="260" max-vertical-offset="3225">
+            <state vertical-scroll-proportion="-2.3333333" vertical-offset="260" max-vertical-offset="3225">
               <caret line="29" column="40" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -150,8 +193,14 @@
         <option value="$PROJECT_DIR$/static/css/admin/index-reveal.css" />
         <option value="$PROJECT_DIR$/templates/slide.tmpl" />
         <option value="$PROJECT_DIR$/templates/menu.tmpl" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
+        <option value="$PROJECT_DIR$/src/helpmaker/helpmaker.go" />
+        <option value="$PROJECT_DIR$/src/db/db.go" />
+        <option value="$PROJECT_DIR$/login/login.go" />
+        <option value="$PROJECT_DIR$/error/error.go" />
+        <option value="$PROJECT_DIR$/auth/auth.go" />
+        <option value="$PROJECT_DIR$/helpmaker/helpmaker.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -310,7 +359,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="helpmaker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,11 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
+              <option name="myItemId" value="error" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,11 +387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,7 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +420,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="IntelliLang.Advanced" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -397,11 +438,11 @@
       <recent name="D:\360cloud\work-go\golib\src\helpsystem\static\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\360cloud\work-go\golib\src\helpsystem\login" />
+      <recent name="D:\360cloud\work-go\golib\src\helpsystem\helpmaker" />
+      <recent name="D:\360cloud\work-go\golib\src\helpsystem\db" />
       <recent name="D:\360cloud\work-go\golib\src\helpsystem\static\upload\01" />
       <recent name="D:\360cloud\work-go\golib\src\helpsystem\static\upload" />
-      <recent name="D:\360cloud\work-go\golib\src\helpsystem\html\admin" />
-      <recent name="D:\360cloud\work-go\golib\src\helpsystem\html" />
-      <recent name="D:\360cloud\work-go\golib\src\helpsystem" />
     </key>
   </component>
   <component name="RunManager">
@@ -717,7 +758,7 @@
       <workItem from="1426066794196" duration="628000" />
       <workItem from="1426067444789" duration="8896000" />
       <workItem from="1426080388707" duration="7867000" />
-      <workItem from="1426126697287" duration="49906000" />
+      <workItem from="1426126697287" duration="52498000" />
     </task>
     <task id="LOCAL-00001" summary="1,完成登录">
       <created>1426084253463</created>
@@ -779,11 +820,17 @@
       <option name="project" value="LOCAL" />
       <updated>1426240478109</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1,增加了目录过滤">
+      <created>1426240955219</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1426240955219</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113781000" />
+    <option name="totallyTimeSpent" value="116373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -810,7 +857,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1187,23 +1234,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1203" max-vertical-offset="3885">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40045768" vertical-offset="260" max-vertical-offset="3225">
+        <state vertical-scroll-proportion="-2.3333333" vertical-offset="260" max-vertical-offset="3225">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1800">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/auth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24050634" vertical-offset="456" max-vertical-offset="930">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
