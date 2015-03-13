@@ -126,6 +126,7 @@ Purchase: http://wrapbootstrap.com
     // Full list of configuration options available at:
     // https://github.com/hakimel/reveal.js#configuration
     function initReveal(){
+
         Reveal.initialize({
             width: 1300,
             height: 800,
@@ -149,22 +150,26 @@ Purchase: http://wrapbootstrap.com
                 { src: 'assets/revealjs/plugin/notes/notes.js', async: true }
             ]
         });
-        Reveal.slide(0);
         $(".slide-number").attr('data-content',"页/共"+$(".slides >section").length+'页');
+        Reveal.slide(0);
         $(".slides").hide();
         $(".slides").fadeIn(1500);
 
     }
-    function clickMenu(id){
+    function clickMenu(id,obj){
         $.ajax({
             url: "/pages/"+id,
             contentType:"html/text"
         }).done(function(data) {
             console.log(data)
             $( ".slides" ).html(data);
-            $( ".slides > section:first-child img").load(function(){
+            if($( ".slides > section:first-child img").length>0){
+                $( ".slides > section:first-child img").load(function(){
+                    initReveal();
+                });
+            }else{
                 initReveal();
-            });
+            }
         });
     }
     function getNowFormatDate() {
