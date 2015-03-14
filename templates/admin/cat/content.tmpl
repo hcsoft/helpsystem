@@ -1,15 +1,48 @@
-<ol class="dd-list">
-    {{ range $key, $value := . }}
-    <li class="dd-item dd2-item" style="width:100%;padding:20px;height:300px;display:block;">
-        {{if $value.isarray}}
-        <div style="display:table-row">
-        {{ range $key1, $data := $value.urls }}
-            <div style="height: 260px;display: table-cell;"><img src='{{$data.url}}' style="width:100%;height:100%;"></div>
-        {{end}}
-        </div>
-        {{else}}
-        <img src='{{$value.url}}' style="width:100%;height:100%;">
-        {{end}}
-    </li>
-    {{ end }}
-</ol>
+<link href="/assets/fileinput/css/fileinput.min.css" rel="stylesheet"/>
+<script src="/assets/fileinput/js/fileinput.min.js"></script>
+<form enctype="multipart/form-data">
+    <ol class="dd-list">
+        {{ range $key, $value := . }}
+        <li class="dd-item dd2-item" style="width:100%;padding:20px;display:block;">
+            <div class="form-group">
+                <input id="input-{{$key}}" type="file" multiple="true">
+                <script>
+                $("#input-{{$key}}").fileinput({
+                initialPreview: [
+                {{if $value.isarray}}
+                {{range $key1, $data := $value.urls }}
+                "<img src='{{$data.url}}' class='file-preview-image' >",
+                {{end}}
+                {{else}}
+                "<img src='{{$value.url}}' class='file-preview-image'>",
+                {{end}}
+                ],
+                overwriteInitial: false,
+                        initialPreviewShowDelete:true,
+                maxFileSize: 1000,
+                initialCaption: "The Moon and the Earth",
+                        initialPreviewConfig: [
+                    {
+                        caption: 'desert.jpg',
+                        width: '120px',
+                        url: '/localhost/avatar/delete',
+                        key: 100,
+                        extra: {id: 100}
+                    },
+                    {
+                        caption: 'jellyfish.jpg',
+                        width: '120px',
+                        url: '/localhost/avatar/delete',
+                        key: 101,
+                        extra: function() {
+                            return {id: $("#id").val()};
+                        },
+                    }
+                ]
+                });
+                </script>
+            </div>
+        </li>
+        {{ end }}
+    </ol>
+</form>
