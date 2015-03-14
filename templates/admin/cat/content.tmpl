@@ -1,45 +1,131 @@
-<link href="/assets/fileinput/css/fileinput.min.css" rel="stylesheet"/>
-<script src="/assets/fileinput/js/fileinput.min.js"></script>
+<script>
+    function btstatus() {
+        if ($(".uploadsbutton").hasClass("disabled")) {
+            $(".savebutton").removeClass('disabled');
+        } else {
+            $(".savebutton").addClass('disabled');
+        }
+    }
+    $("form").on("fileuploaded", "input[type=file]", function (e, data) {
+        var urls = $(this).data("upurls");
+        if (!urls) {
+            urls = "";
+        }
+        $(this).data("upurls", urls + ',' + data.response.urls);
+    });
+    $('form').on('fileloaded', "input[type=file]", function (event, file, previewId, index, reader) {
+        $(".savebutton").addClass('disabled');
+        $(".uploadsbutton").removeClass('disabled');
+    });
+    $("form").on("filedeleted", "input[type=file]", function (e, key) {
+        var upurls = $(this).data("upurls");
+        if (!upurls) {
+            upurls = "";
+        }
+        var urls = $(this).data("urls");
+        if (!urls) {
+            urls = "";
+        }
+        if (upurls.indexOf("," + key) >= 0) {
+            $(this).data("upurls", upurls.replace("," + key, ""));
+        } else if (upurls.indexOf(key + ",") >= 0) {
+            $(this).data("upurls", upurls.replace(key + ",", ""));
+        } else if (upurls.indexOf(key) >= 0) {
+            $(this).data("upurls", upurls.replace(key, ""));
+        }
+        if (urls.indexOf("," + key) >= 0) {
+            $(this).data("urls", urls.replace("," + key, ""));
+        } else if (urls.indexOf(key + ",") >= 0) {
+            $(this).data("urls", urls.replace(key + ",", ""));
+        } else if (urls.indexOf(key) >= 0) {
+            $(this).data("urls", urls.replace(key, ""));
+        }
+        btstatus();
+    });
+    $("form").on("fileclear", "input[type=file]", function (e, key) {
+        $(this).data("upurls", '');
+        btstatus();
+    });
+    $('ol.pagelist').bind("DOMSubtreeModified", function () {
+        console.log("aaaaaaaaaaaaaaaaaaaaa")
+        var li = $('ol.pagelist >li');
+        for (var i = 0; i < li.length; i++) {
+            $(li[i]).attr("data-beforecontent", "第" + (i + 1) + "行");
+        }
+    });
+
+</script>
+<style>
+    ol.pagelist > li:before {
+        content: attr(data-beforecontent);
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top:20px;
+        left:0;
+    }
+
+    ol.pagelist > li {
+        width: 100%;
+        padding: 20px 20px 20px 50px;
+        display: block;
+    }
+    ol.pagelist >li >div.tools{
+        position: absolute;
+        top:50px;
+        left:0;
+    }
+</style>
 <form enctype="multipart/form-data">
-    <ol class="dd-list">
+    <a href="javascript:void(0)" type="button" class="btn btn-default btn-xs shiny purple uploadsbutton disabled"
+       onclick="uploadContent(this)" title="全部上传">全部上传</a>
+    <a href="javascript:void(0)" class="btn btn-default btn-xs shiny purple disabled savebutton"
+       onclick="saveContent(this)" title="保存">保存</a>
+    <a href="javascript:void(0)" class="btn btn-default btn-xs shiny purple " onclick="addPage(this)" title="保存">增加页</a>
+    <ol class="dd-list pagelist">
         {{ range $key, $value := . }}
-        <li class="dd-item dd2-item" style="width:100%;padding:20px;display:block;">
+        <li class="dd-item dd2-item"  >
+            <div class="tools">
+                <a href="javascript:void(0)" class="btn btn-default btn-xs shiny purple"
+                                   onclick="$(this).parent().parent().remove()" title="删除本行">删除</a>
+            </div>
             <div class="form-group">
                 <input id="input-{{$key}}" type="file" multiple="true">
                 <script>
-                $("#input-{{$key}}").fileinput({
-                initialPreview: [
-                {{if $value.isarray}}
-                {{range $key1, $data := $value.urls }}
-                "<img src='{{$data.url}}' class='file-preview-image' >",
-                {{end}}
-                {{else}}
-                "<img src='{{$value.url}}' class='file-preview-image'>",
-                {{end}}
-                ],
-                overwriteInitial: false,
-                        initialPreviewShowDelete:true,
-                maxFileSize: 1000,
-                initialCaption: "The Moon and the Earth",
-                        initialPreviewConfig: [
-                    {
-                        caption: 'desert.jpg',
-                        width: '120px',
-                        url: '/localhost/avatar/delete',
-                        key: 100,
-                        extra: {id: 100}
-                    },
-                    {
-                        caption: 'jellyfish.jpg',
-                        width: '120px',
-                        url: '/localhost/avatar/delete',
-                        key: 101,
-                        extra: function() {
-                            return {id: $("#id").val()};
-                        },
-                    }
-                ]
-                });
+                    $("#input-{{$key}}").data("urls", '{{$value.url}}');
+                    /* {{if $value.isarray}} */
+                    /*{{range $key1, $data := $value.urls }}*/
+                    "<img src='{{$data}}' class='file-preview-image' >",
+                        /*  {{end}} */
+                        /*  {{else}}*/
+                            "<img src='{{$value.url}}' class='file-preview-image'>",
+                        /* {{end}}*/
+                            $("#input-{{$key}}").fileinput({
+                                initialPreview: [
+                                    /* {{if $value.isarray}} */
+                                    /*{{range $key1, $data := $value.urls }}*/
+                                    "<img src='{{$data}}' class='file-preview-image' >",
+                                    /*  {{end}} */
+                                    /*  {{else}}*/
+                                    "<img src='{{$value.url}}' class='file-preview-image'>",
+                                    /* {{end}}*/
+                                ],
+                                initialPreviewConfig: [
+                                    /* {{if $value.isarray}} */
+                                    /*{{range $key1, $data := $value.urls }}*/
+                                    {
+                                        url: '/admin/pic/delete',
+                                        key: '{{$data}}'
+                                    },
+                                    /*  {{end}} */
+                                    /*  {{else}}*/
+                                    {
+                                        url: '/admin/pic/delete',
+                                        key: '{{$value.url}}'
+                                    },
+                                    /* {{end}}*/
+                                ]
+                            });
                 </script>
             </div>
         </li>

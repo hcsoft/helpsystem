@@ -147,7 +147,61 @@ function showContent(obj){
         contentType:"html/text"
     }).done(function(data) {
         $("#pagecontent").html(data);
+        $(".savebutton").data("id",item.data("id"));
         //console.log(data)
     });
     event.stopPropagation();
+}
+
+function uploadContent(obj){
+    var inputs = $(obj).parent().find("input");
+    for(var i = 0 ; i < $(obj).parent().find("input").length;i++){
+        $(inputs[i]).fileinput('upload');
+    }
+    $(".savebutton").removeClass('disabled');
+    $(".uploadsbutton").addClass('disabled');
+    event.stopPropagation();
+}
+
+function saveContent(obj){
+    console.log( $(obj).parent());
+    var inputs = $(obj).parent().find("input");
+    $(".savebutton").data("savelength",inputs.length);
+    var urlarray = [];
+    for(var i = 0 ; i < $(obj).parent().find("input").length;i++){
+        var urls = $(inputs[i]).data("urls");
+        var upurls = $(inputs[i]).data("upurls");
+        if(!upurls){
+            upurls = "";
+        }
+        if(!urls){
+            urls="";
+        }
+        urlarray.push( urls+','+upurls);
+    }
+    console.log(urlarray);
+    var ret = {"urls":urlarray}
+    $.ajax({
+        url: "/admin/page/save/"+$(".savebutton").data("id"),
+        data:ret,
+        type:"POST"
+    }).done(function(data) {
+        console.log(data);
+        BootstrapDialog.alert({
+            title: '保存成功',
+            message: '保存成功!',
+            btnOKLabel: '关闭',
+            btnCancelLabel: '取消'
+        });
+        //console.log(data)
+    });
+    event.stopPropagation();
+}
+
+function addPage(obj){
+    $(obj).next().append('<li class="dd-item dd2-item">'+
+    '<div class="tools">' +
+    ' <a href="javascript:void(0)" class="btn btn-default btn-xs shiny purple" onclick="$(this).parent().parent().remove()" title="删除本行">删除</a>'+
+    ' </div><div class="form-group"> <input  type="file" multiple="true"></div></li>');
+    $(obj).next().children("li:last-child ").find(">div>input").fileinput();
 }

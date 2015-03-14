@@ -7,7 +7,6 @@ import (
 	"github.com/martini-contrib/render"
 	"fmt"
 	"strings"
-	"html/template"
 	dbutil "helpsystem/db"
 	erutil "helpsystem/error"
 )
@@ -51,38 +50,9 @@ func getPageData(db *sql.DB , r render.Render, params martini.Params)  []map[str
 
 		if strings.Index(url,",") >0{
 			value["isarray"] = true
-			var urls  []interface{};
 
 			strs := strings.Split(url,",")
-			for _,str := range strs{
-				fmt.Println(str);
-				cols :=strings.Split(str,"|")
-				fmt.Println(cols[0])
-				fmt.Println(cols[1])
-				colmap := make(map[string]interface{})
-				if len(cols)>0 && cols[0] != "" {
-					colmap["type"]=cols[0]
-				}else{
-					colmap["type"]="fragment"
-				}
-				if len(cols)>1 && cols[1] != "" {
-					colmap["url"]=cols[1]
-				}else{
-					colmap["url"]=""
-				}
-				if len(cols)>2 && cols[2] != "" {
-					colmap["css"]=template.CSS(cols[2])
-				}else{
-					colmap["css"]=template.CSS("width:100%;height:100%;")
-				}
-				if len(cols)>3  && cols[3] != ""  {
-					colmap["animate"]=(cols[2])
-				}else{
-					colmap["animate"]=""
-				}
-				urls = append(urls,colmap)
-			}
-			value["urls"] = urls;
+			value["urls"] = strs;
 		}
 	}
 	return values;
@@ -92,6 +62,9 @@ func EditPages(db *sql.DB , r render.Render, params martini.Params){
 	values := getPageData(db,r,params)
 	r.HTML(200, "admin/cat/content", values)
 }
+
+
+
 
 func GetCat(catid string, db *sql.DB)map[string]map[string]interface{}{
 	if catid == "0"{

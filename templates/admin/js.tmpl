@@ -7,4 +7,29 @@
 <!--Beyond Scripts-->
 <script src="/assets/js/beyond.js"></script>
 <script src="/js/util/util.js"></script>
+<link href="/assets/fileinput/css/fileinput.min.css" rel="stylesheet"/>
+<script src="/assets/fileinput/js/fileinput.js"></script>
 
+<script>
+    $.fn.fileinput.defaults = $.extend($.fn.fileinput.defaults,{
+        browseLabel:'文件',
+        browseTitle:'文件',
+        removeLabel:'清除',
+        removeTitle:'清除',
+        cancelLabel:'撤销',
+        cancelTitle:'撤销',
+        uploadLabel:'上传',
+        uploadTitle:'上传',
+//        showRemove:false,
+        allowedFileExtensions: ["jpg", "gif", "png","mp4"],
+        multiple:true,
+        overwriteInitial: false,
+        initialPreviewShowDelete: true,
+        deleteUrl:'/admin/pic/delete',
+        uploadUrl:'/admin/pic/upload',
+        maxFileSize: 1000,
+        dropZoneTitle:'拖拽图片或视频到这里',
+        msgSelected:'选了{n}张图片',
+        initialCaption: ""
+    });
+</script>

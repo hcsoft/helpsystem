@@ -1069,7 +1069,7 @@
                     if (data.error === undefined) {
                         setIndicator('indicatorSuccess', 'indicatorSuccessTitle');
                         $btnUpload.hide();
-                        $btnDelete.hide();
+                        //$btnDelete.hide();
                         self.filestack[i] = undefined;
                         if (!allFiles) {
                             self.resetFileStack();
