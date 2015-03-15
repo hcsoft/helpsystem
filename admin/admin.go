@@ -13,6 +13,7 @@ import (
 	"io"
 	"path/filepath"
 	"strings"
+	"github.com/satori/go.uuid"
 )
 
 func Router( router martini.Router) {
@@ -77,9 +78,14 @@ func Router( router martini.Router) {
 				defer file.Close()
 				erutil.CheckErr(err)
 				//create destination file making sure the path is writeable.
-				fmt.Println(dir+"/static/upload/" + files[i].Filename)
-				dst, err := os.Create(dir+"/static/upload/" + files[i].Filename)
-				filenames = append(filenames,"/upload/"+files[i].Filename)
+				ext :=filepath.Ext(files[i].Filename)
+				newfilename := uuid.NewV4().String()+ ext
+				if _, err := os.Stat(newfilename); err == nil{
+					newfilename = uuid.NewV4().String()+ ext
+				}
+				fmt.Println(dir+"/static/upload/" + newfilename)
+				dst, err := os.Create(dir+"/static/upload/" + newfilename)
+				filenames = append(filenames,"/upload/"+newfilename)
 				defer dst.Close()
 				erutil.CheckErr(err)
 				if _, err := io.Copy(dst, file); err != nil {

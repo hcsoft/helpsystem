@@ -47,7 +47,6 @@
         btstatus();
     });
     $('ol.pagelist').bind("DOMSubtreeModified", function () {
-        console.log("aaaaaaaaaaaaaaaaaaaaa")
         var li = $('ol.pagelist >li');
         for (var i = 0; i < li.length; i++) {
             $(li[i]).attr("data-beforecontent", "第" + (i + 1) + "行");
