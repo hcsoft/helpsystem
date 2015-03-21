@@ -7,8 +7,8 @@ import ("database/sql"
 	"github.com/martini-contrib/render"
 	"net/http"
 	"fmt"
-	dbutil "helpsystem/db"
-	erutil "helpsystem/error"
+	dbutil "github.com/hcsoft/helpsystem/db"
+	erutil "github.com/hcsoft/helpsystem/error"
 )
 
 func Login(session sessions.Session, db *sql.DB, r render.Render, req *http.Request) {

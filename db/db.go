@@ -27,7 +27,7 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 	return ret;
 }
 
-/*获得数据库的map类型的array*/
+/*获得数据库的map类型单一结果*/
 func GetOneResult(rows *sql.Rows) map[string]interface{} {
 	cols, _ := rows.Columns()
 	count := len(cols)

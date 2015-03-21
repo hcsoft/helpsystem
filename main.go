@@ -7,10 +7,10 @@ import (
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
 	"net/http"
-	"helpsystem/auth"
-	erutil "helpsystem/error"
-	"helpsystem/helpmaker"
-	"helpsystem/admin"
+	"github.com/hcsoft/helpsystem/auth"
+	erutil "github.com/hcsoft/helpsystem/error"
+	"github.com/hcsoft/helpsystem/helpmaker"
+	"github.com/hcsoft/helpsystem/admin"
 )
 
 func main() {
@@ -44,7 +44,3 @@ func index(db *sql.DB , r render.Render, req *http.Request) {
 	ret["cats"] = helpmaker.GetCats(catid, db)
 	r.HTML(200, "index-reveal", ret)
 }
-
-
-
-
