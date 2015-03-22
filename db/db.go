@@ -2,7 +2,8 @@ package  db
 
 import(
 	"database/sql"
-	"golang.org/x/text/encoding/simplifiedchinese"
+	cn "golang.org/x/text/encoding/simplifiedchinese"
+//	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
 	"io/ioutil"
 	"bytes"
@@ -30,7 +31,7 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 
 			b, ok := val.([]byte)
 			if (ok) {
-				data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), simplifiedchinese.GB18030.NewDecoder()))
+				data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GBK.NewDecoder()))
 				v= string(data)
 			} else {
 				v = val
@@ -63,7 +64,7 @@ func GetOneResult(rows *sql.Rows) map[string]interface{} {
 
 		b, ok := val.([]byte)
 		if (ok) {
-			data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), simplifiedchinese.GB18030.NewDecoder()))
+			data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GBK.NewDecoder()))
 			v= string(data)
 		} else {
 			v = values[i]
