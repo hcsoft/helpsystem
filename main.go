@@ -8,10 +8,10 @@ import (
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
 	"net/http"
-	"helpsystem/auth"
-	erutil "helpsystem/error"
-	"helpsystem/helpmaker"
-	"helpsystem/admin"
+	"github.com/hcsoft/helpsystem/auth"
+	erutil "github.com/hcsoft/helpsystem/error"
+	"github.com/hcsoft/helpsystem/helpmaker"
+	"github.com/hcsoft/helpsystem/admin"
 //	"fmt"
 )
 
