@@ -3,12 +3,11 @@ package  helpmaker
 import (
 	"database/sql"
 	"github.com/go-martini/martini"
-	_ "github.com/mattn/go-adodb"
 	"github.com/martini-contrib/render"
 	"fmt"
 	"strings"
-	dbutil "github.com/hcsoft/helpsystem/db"
-	erutil "github.com/hcsoft/helpsystem/error"
+	dbutil "helpsystem/db"
+	erutil "helpsystem/error"
 )
 
 func Cats( db *sql.DB , r render.Render, params martini.Params) {
@@ -22,6 +21,7 @@ func GetCats(  catid string,db *sql.DB)   map[string]map[string]interface{} {
 	if catid==""{
 		catid = "0"
 	}
+
 	ids := strings.Split(catid,",")
 	cats := make(  map[string]map[string]interface{})
 	for _,v := range ids{

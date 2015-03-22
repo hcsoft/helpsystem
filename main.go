@@ -3,14 +3,16 @@ package main
 import (
 	"database/sql"
 	"github.com/go-martini/martini"
-	_ "github.com/mattn/go-adodb"
+//	_ "github.com/mattn/go-adodb"
+	_ "code.google.com/p/odbc"
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
 	"net/http"
-	"github.com/hcsoft/helpsystem/auth"
-	erutil "github.com/hcsoft/helpsystem/error"
-	"github.com/hcsoft/helpsystem/helpmaker"
-	"github.com/hcsoft/helpsystem/admin"
+	"helpsystem/auth"
+	erutil "helpsystem/error"
+	"helpsystem/helpmaker"
+	"helpsystem/admin"
+//	"fmt"
 )
 
 func main() {
@@ -19,7 +21,8 @@ func main() {
 	m.Use(sessions.Sessions("helpsystem_session", store))
 	m.Use(render.Renderer())
 	//数据库
-	db, err := sql.Open("adodb", "Provider=SQLNCLI11;DataTypeCompatibility=80;Server=127.0.0.1;UID=sa;PWD=11111111;Database=helpsystem;")
+//	db, err := sql.Open("adodb", "Provider=SQLNCLI11;DataTypeCompatibility=80;Server=127.0.0.1;UID=sa;PWD=11111111;Database=helpsystem;")
+	db, err := sql.Open("odbc","DSN=mssql;UID=sa;PWD=11111111;AutoTranslate=no;")
 	erutil.CheckErr(err)
 	db.SetMaxOpenConns(100)
 	m.Map(db)

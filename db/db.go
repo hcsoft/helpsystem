@@ -2,7 +2,15 @@ package  db
 
 import(
 	"database/sql"
-	_ "github.com/mattn/go-adodb"
+//	"strconv"
+//	"unicode/utf8"
+//	"golang.org/x/text/encoding"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
+	"io/ioutil"
+//	"bufio"
+	"bytes"
+//	"ioutil"
 )
 
 
@@ -20,7 +28,18 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 		}
 		rows.Scan(valuePtrs...)
 		for i, s := range cols {
-			row[s] = values[i]
+			var v interface{}
+
+			val := values[i]
+
+			b, ok := val.([]byte)
+			if (ok) {
+				data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), simplifiedchinese.GB18030.NewDecoder()))
+				v= string(data)
+			} else {
+				v = val
+			}
+			row[s] = v
 		}
 		ret = append(ret, row);
 	}

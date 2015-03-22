@@ -2,11 +2,10 @@ package admin
 import (
 	"database/sql"
 	"github.com/go-martini/martini"
-	_ "github.com/mattn/go-adodb"
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
-	erutil "github.com/hcsoft/helpsystem/error"
-	"github.com/hcsoft/helpsystem/helpmaker"
+	erutil "helpsystem/error"
+	"helpsystem/helpmaker"
 	"fmt"
 	"net/http"
 	"os"
