@@ -3,7 +3,6 @@ package main
 import (
 	"database/sql"
 	"github.com/go-martini/martini"
-//	_ "github.com/mattn/go-adodb"
 	_ "code.google.com/p/odbc"
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"

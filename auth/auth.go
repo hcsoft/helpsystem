@@ -2,7 +2,6 @@ package auth
 
 import ("database/sql"
 	"github.com/go-martini/martini"
-	_ "github.com/mattn/go-adodb"
 	"github.com/martini-contrib/sessions"
 	"github.com/martini-contrib/render"
 	"net/http"
