@@ -21,7 +21,7 @@ func main() {
 	m.Use(render.Renderer())
 	//数据库
 //	db, err := sql.Open("adodb", "Provider=SQLNCLI11;DataTypeCompatibility=80;Server=127.0.0.1;UID=sa;PWD=11111111;Database=helpsystem;")
-	db, err := sql.Open("odbc","DSN=mssql;DATABASE=helpsystem;")
+	db, err := sql.Open("odbc","DSN=mssql;DATABASE=helpsystem;UID=sa;PWD=11111111")
 	erutil.CheckErr(err)
 	db.SetMaxOpenConns(100)
 	m.Map(db)
