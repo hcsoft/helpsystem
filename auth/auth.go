@@ -22,6 +22,7 @@ func Login(session sessions.Session, db *sql.DB, r render.Render, req *http.Requ
 	erutil.CheckErr(err)
 	if rows.Next() {
 		values := dbutil.GetOneResult(rows)
+		fmt.Println(values["password"]);
 		if values["password"] == password {
 			session.Set("userid", values["userid"])
 			session.Set("username", values["username"])
@@ -41,7 +42,6 @@ func Logout(session sessions.Session, r render.Render) {
 }
 
 func Auth(session sessions.Session, c martini.Context, r render.Render) {
-	fmt.Println("auth..........")
 	v := session.Get("userid")
 	if v == nil {
 		r.Redirect("/login")
