@@ -7,7 +7,7 @@ import(
 	"golang.org/x/text/transform"
 	"io/ioutil"
 	"bytes"
-	"fmt"
+//	"fmt"
 )
 
 
@@ -31,7 +31,7 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 
 			b, ok := val.([]byte)
 			if (ok) {
-				data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GBK.NewDecoder()))
+				data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GB18030.NewDecoder()))
 				v= string(data)
 			} else {
 				v = val
@@ -47,7 +47,6 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 func GetOneResult(rows *sql.Rows) map[string]interface{} {
 	cols, _ := rows.Columns()
 	count := len(cols)
-	fmt.Println("aaaaaaaaaaa")
 	row := make(map[string]interface{})
 	values := make([]interface{}, count)
 	valuePtrs := make([]interface{}, count)
@@ -55,7 +54,6 @@ func GetOneResult(rows *sql.Rows) map[string]interface{} {
 		valuePtrs[i] = &values[i]
 	}
 	rows.Scan(valuePtrs...)
-	fmt.Println("aaaaaaaaaaa")
 
 	for i, s := range cols {
 		var v interface{}
@@ -64,12 +62,11 @@ func GetOneResult(rows *sql.Rows) map[string]interface{} {
 
 		b, ok := val.([]byte)
 		if (ok) {
-			data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GBK.NewDecoder()))
+			data, _ := ioutil.ReadAll(transform.NewReader(bytes.NewReader(b), cn.GB18030.NewDecoder()))
 			v= string(data)
 		} else {
-			v = values[i]
+			v = val
 		}
-		fmt.Println("aaaaaaaaaaa")
 		row[s] = v
 	}
 	return row;

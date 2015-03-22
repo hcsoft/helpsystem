@@ -53,14 +53,12 @@ func Router( router martini.Router) {
 
 	router.Post("/pic/delete", func(r render.Render, params martini.Params, db *sql.DB , req *http.Request ) {
 			req.ParseForm()
-			fmt.Println(req.Form["key"][0])
 			ret := map[string]string{"msg":"删除成功"}
 			r.JSON(200,ret)
 		})
 	router.Post("/pic/upload", func(r render.Render, params martini.Params, db *sql.DB , req *http.Request,w http.ResponseWriter ) {
 			dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 			erutil.CheckErr(err)
-			fmt.Println(dir)
 			err = req.ParseMultipartForm(100000)
 			erutil.CheckErr(err)
 
@@ -68,7 +66,6 @@ func Router( router martini.Router) {
 			m := req.MultipartForm
 
 			//get the *fileheaders
-			fmt.Println(m)
 			files := m.File["file_data"]
 			filenames := []string{}
 			for i, _ := range files {
@@ -98,7 +95,6 @@ func Router( router martini.Router) {
 	router.Post("/page/save/:id",func(r render.Render, db *sql.DB , req *http.Request, params martini.Params){
 			req.ParseForm()
 			fmt.Println(req.Form["urls[]"])
-			fmt.Println(params["id"])
 			id :=params["id"]
 			_ , err := db.Exec("delete help_pages  where catid = ? ",id)
 			erutil.CheckErr(err)
