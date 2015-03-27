@@ -154,6 +154,17 @@ Purchase: http://wrapbootstrap.com
         Reveal.slide(0);
         $(".slides").hide();
         $(".slides").fadeIn(1500);
+        Reveal.addEventListener( 'slidechanged', function( event ) {
+            // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+            var video = $(event.currentSlide).find("video");
+            var lastvideo = $(event.previousSlide).find("video");
+            if(video.length>0){
+                video[0].play();
+            }
+            if(lastvideo.length>0){
+                lastvideo[0].pause();
+            }
+        } );
 
     }
     function clickMenu(id,obj){

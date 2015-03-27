@@ -2,10 +2,18 @@
 <section >
     {{if $value.isarray}}
         {{ range $key1, $data := $value.urls }}
+            {{if eq $data.type "pic"}}
             <section><img src='{{$data}}' style="width:100%;height:100%;"></section>
+            {{else}}
+            <section><video src='{{$data}}' autoplay="autoplay" style="width:100%;height:100%;"></video></section>
+            {{end }}
         {{end}}
     {{else}}
+        {{if eq $value.type "pic"}}
         <img src='{{$value.url}}' style="width:100%;height:100%;">
+        {{else}}
+        <video src='{{$value.url}}' autoplay="autoplay" style="width:100%;height:100%;"></video>
+        {{end }}
     {{end}}
 </section>
 {{ end }}

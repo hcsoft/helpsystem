@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ec2edc-29ca-4e74-b28f-1edfe501a5d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/img/logo.png" afterPath="$PROJECT_DIR$/static/assets/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/img/logo.psd" afterPath="$PROJECT_DIR$/static/assets/img/logo.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/header.tmpl" afterPath="$PROJECT_DIR$/templates/admin/header.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.tmpl" afterPath="$PROJECT_DIR$/templates/index.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.tmpl" afterPath="$PROJECT_DIR$/templates/login.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpmaker/helpmaker.go" afterPath="$PROJECT_DIR$/helpmaker/helpmaker.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/admin/helpmanager.js" afterPath="$PROJECT_DIR$/static/js/admin/helpmanager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/helpmanager.tmpl" afterPath="$PROJECT_DIR$/templates/admin/helpmanager.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index-reveal.tmpl" afterPath="$PROJECT_DIR$/templates/index-reveal.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/js.tmpl" afterPath="$PROJECT_DIR$/templates/admin/js.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slide.tmpl" afterPath="$PROJECT_DIR$/templates/slide.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="helpsystem.iws" />
@@ -33,71 +34,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="content.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/cat/content.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667" vertical-offset="1556" max-vertical-offset="2085">
+              <caret line="108" column="55" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-reveal.tmpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.872093" vertical-offset="2010" max-vertical-offset="3390">
+              <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpmanager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/admin/helpmanager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2019" max-vertical-offset="3195">
+              <caret line="149" column="55" selection-start-line="149" selection-start-column="55" selection-end-line="149" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/admin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
-              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1905">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/index.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="825">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/auth.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="855">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpmaker.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1545">
-              <caret line="85" column="23" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="810">
-              <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1875">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -106,28 +77,63 @@
       <file leaf-file-name="db.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/db.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="1185">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/header.tmpl">
+      <file leaf-file-name="helpmaker.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1980">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1890">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tmpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
+      <file leaf-file-name="helpmanager.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/helpmanager.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="7335">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state vertical-scroll-proportion="9.208333" vertical-offset="596" max-vertical-offset="1125">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#section#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#section#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/js.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.0416665" vertical-offset="86" max-vertical-offset="615">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/footer.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -165,7 +171,6 @@
         <option value="$PROJECT_DIR$/static/assets/revealjs/css/reveal.css" />
         <option value="$PROJECT_DIR$/static/css/admin/index-reveal.css" />
         <option value="$PROJECT_DIR$/templates/menu.tmpl" />
-        <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
         <option value="$PROJECT_DIR$/src/helpmaker/helpmaker.go" />
         <option value="$PROJECT_DIR$/src/db/db.go" />
         <option value="$PROJECT_DIR$/login/login.go" />
@@ -176,22 +181,23 @@
         <option value="$PROJECT_DIR$/static/js/util/util.js" />
         <option value="$PROJECT_DIR$/static/css/admin/helpmanager.css" />
         <option value="$PROJECT_DIR$/templates/admin/cat/cat.tmpl" />
-        <option value="$PROJECT_DIR$/templates/admin/helpmanager.tmpl" />
         <option value="$PROJECT_DIR$/templates/admin/cat/content1.tmpl" />
-        <option value="$PROJECT_DIR$/templates/slide.tmpl" />
-        <option value="$PROJECT_DIR$/templates/admin/js.tmpl" />
         <option value="$PROJECT_DIR$/static/assets/fileinput/js/fileinput.js" />
-        <option value="$PROJECT_DIR$/static/js/admin/helpmanager.js" />
         <option value="$PROJECT_DIR$/templates/admin/cat/content.tmpl" />
         <option value="$PROJECT_DIR$/auth/auth.go" />
-        <option value="$PROJECT_DIR$/helpmaker/helpmaker.go" />
-        <option value="$PROJECT_DIR$/templates/admin/index.tmpl" />
         <option value="$PROJECT_DIR$/db/db.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/admin/admin.go" />
         <option value="$PROJECT_DIR$/templates/admin/header.tmpl" />
         <option value="$PROJECT_DIR$/templates/index.tmpl" />
+        <option value="$PROJECT_DIR$/templates/admin/index.tmpl" />
         <option value="$PROJECT_DIR$/templates/login.tmpl" />
+        <option value="$PROJECT_DIR$/templates/admin/js.tmpl" />
+        <option value="$PROJECT_DIR$/templates/admin/helpmanager.tmpl" />
+        <option value="$PROJECT_DIR$/static/js/admin/helpmanager.js" />
+        <option value="$PROJECT_DIR$/helpmaker/helpmaker.go" />
+        <option value="$PROJECT_DIR$/templates/slide.tmpl" />
+        <option value="$PROJECT_DIR$/templates/index-reveal.tmpl" />
       </list>
     </option>
   </component>
@@ -320,8 +326,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,6 +369,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -444,6 +528,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -691,6 +777,25 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="GoTestConfiguration" factoryName="Go Test">
       <option name="name" value="Go Test" />
       <option name="saveOutputToFile" value="false" />
@@ -710,25 +815,6 @@
       <option name="testBeforeBenchmark" value="false" />
       <option name="goVetEnabled" value="false" />
       <module name="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -810,7 +896,12 @@
       <workItem from="1426692835002" duration="2362000" />
       <workItem from="1426947433647" duration="9831000" />
       <workItem from="1427016038836" duration="4239000" />
-      <workItem from="1427032357999" duration="6633000" />
+      <workItem from="1427032357999" duration="8133000" />
+      <workItem from="1427079554417" duration="469000" />
+      <workItem from="1427186490447" duration="1843000" />
+      <workItem from="1427199776469" duration="1519000" />
+      <workItem from="1427337133748" duration="620000" />
+      <workItem from="1427437831719" duration="5286000" />
     </task>
     <task id="LOCAL-00001" summary="1,完成登录">
       <created>1426084253463</created>
@@ -950,11 +1041,29 @@
       <option name="project" value="LOCAL" />
       <updated>1427044284007</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1,更改图标和网站名称">
+      <created>1427045778082</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1427045778082</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1,更改图标和网站名称">
+      <created>1427046464005</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1427046464005</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1,更改上传限制为200M">
+      <created>1427438353215</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1427438353215</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197396000" />
+    <option name="totallyTimeSpent" value="208633000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -984,10 +1093,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25706595" sideWeight="0.6412067" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21938089" sideWeight="0.6412067" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4078062" sideWeight="0.43453145" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.25706595" sideWeight="0.35879332" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -999,14 +1110,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="go fmt Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4078062" sideWeight="0.43453145" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1044,7 +1153,9 @@
     <MESSAGE value="1,修改成odbc驱动&#10;2,解决了中文转换" />
     <MESSAGE value="1,更改成gbk试试" />
     <MESSAGE value="1,解决登录名称不显示的错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="1,解决登录名称不显示的错误" />
+    <MESSAGE value="1,更改图标和网站名称" />
+    <MESSAGE value="1,更改上传限制为200M" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,更改上传限制为200M" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1223,13 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/footer.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="42.53846" vertical-offset="49121" max-vertical-offset="49620">
@@ -1251,38 +1355,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36885247" vertical-offset="2100" max-vertical-offset="3225">
-          <caret line="152" column="63" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/util/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="525">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="501">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/js.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="615">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/cat/cat.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="555">
-          <caret line="21" column="83" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1293,34 +1369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/admin/helpmanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="3180">
-          <caret line="201" column="26" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/cat/content.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2085">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/admin/index-reveal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1035">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/helpmanager.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1125">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,78 +1387,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="855">
           <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/index.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1545">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
-          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
-          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/header.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/menu.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1905">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="450">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="7335">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="7335">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.916666" vertical-offset="656" max-vertical-offset="1905">
+          <caret line="74" column="92" selection-start-line="74" selection-start-column="92" selection-end-line="74" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.875" vertical-offset="294" max-vertical-offset="825">
+          <caret line="21" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/cat/cat.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.041667" vertical-offset="89" max-vertical-offset="555">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ol#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#li#0;n#ol#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/header.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="1451" max-vertical-offset="1980">
+          <caret line="117" column="48" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="1185">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/helpmanager.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.208333" vertical-offset="596" max-vertical-offset="1125">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/js.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0416665" vertical-offset="86" max-vertical-offset="615">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/footer.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/admin/helpmanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2019" max-vertical-offset="3195">
+          <caret line="149" column="55" selection-start-line="149" selection-start-column="55" selection-end-line="149" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1875">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpmaker/helpmaker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1890">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/cat/content.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="1556" max-vertical-offset="2085">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/slide.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#section#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index-reveal.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.872093" vertical-offset="2010" max-vertical-offset="3390">
+          <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
           <folding />
         </state>
       </provider>

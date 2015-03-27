@@ -52,7 +52,30 @@ func getPageData(db *sql.DB , r render.Render, params martini.Params)  []map[str
 			value["isarray"] = true
 
 			strs := strings.Split(url,",")
-			value["urls"] = strs;
+
+			urls := make ([]map[string]string,0)
+			for _,v := range strs{
+
+				ext :=strings.ToLower( v[len(v)-4:len(v)])
+				fmt.Println(ext)
+				item := make(map[string]string)
+				item ["url"] = v;
+				if ext ==".jpg" || ext == ".png" || ext ==".gif" {
+					item["type"]="pic"
+				}else{
+					item["type"]="video"
+				}
+				urls = append(urls,item)
+			}
+			value["urls"] = urls
+		}else{
+			ext :=strings.ToLower( url[len(url)-4:len(url)])
+			fmt.Println(ext)
+			if ext ==".jpg" || ext == ".png" || ext ==".gif" {
+				value["type"]="pic"
+			}else{
+				value["type"]="video"
+			}
 		}
 	}
 	return values;

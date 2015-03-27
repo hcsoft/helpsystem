@@ -147,6 +147,7 @@ function showContent(obj){
         contentType:"html/text"
     }).done(function(data) {
         $("#pagecontent").html(data);
+        $("#content-title").html(item.data("name")+"-内容");
         $(".savebutton").data("id",item.data("id"));
         //console.log(data)
     });
