@@ -24,6 +24,7 @@ func main() {
 	db, err := sql.Open("odbc","DSN=mssql;DATABASE=helpsystem;UID=sa;PWD=11111111")
 	erutil.CheckErr(err)
 	db.SetMaxOpenConns(100)
+	db.SetMaxIdleConns(10)
 	m.Map(db)
 	m.Any("/login", auth.Login)
 	m.Get("/logout", auth.Logout)
