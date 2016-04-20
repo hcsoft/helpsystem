@@ -40,6 +40,7 @@ func GetResultArray(rows *sql.Rows) []map[string]interface{} {
 		}
 		ret = append(ret, row);
 	}
+	rows.Close()
 	return ret;
 }
 
@@ -69,5 +70,6 @@ func GetOneResult(rows *sql.Rows) map[string]interface{} {
 		}
 		row[s] = v
 	}
+	rows.Close()
 	return row;
 }
